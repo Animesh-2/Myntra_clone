@@ -1,11 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- ===== Iconscout CSS ===== -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+
+    <link rel="icon" href="../IMAGES/Logo/myntra.svg" />
+    <link rel="stylesheet" href="signup.css" />
+    <title>Online Shopping - Signup</title>
 </head>
+
 <body>
-    
+    <!-- Start of Nav-Bar -->
+    <header class="header">
+        <a style="margin-left: 45px" href="#" class="logo"><img
+                src="afaqs_2021-01_15f5f827-8e29-4520-af8d-a0f353b8da17_images.webp" alt="" /></a>
+        <nav>
+            <ul class="menu-items">
+                <li>
+                    <a href="home.html" class="menu-item-1">MEN</a>
+                </li>
+                <li>
+                    <a href="Women.html" class="menu-item-2">WOMEN</a>
+                </li>
+                <li>
+                    <a href="./Kids.html" class="menu-item-3">KIDS</a>
+                </li>
+                <li>
+                    <a href="Home&Living.html" class="menu-item-4">HOME & LIVING</a>
+                </li>
+                <li>
+                    <a href="#" class="menu-item-5">BEAUTY</a>
+                </li>
+                <li>
+                    <a href="#" class="menu-item-6">STUDIO <span class="sup-part"></span></a>
+                </li>
+            </ul>
+        </nav>
+        <div class="search-div">
+            <img id="searchpng" src="https://cdn-icons-png.flaticon.com/128/482/482631.png" alt="" />
+
+            <input type="text" placeholder="Search for products, brands and more" />
+        </div>
+        <div class="nav-last">
+            <div>
+                <!-- <a href="">
+                    <img id="svg" src="https://www.svgrepo.com/show/198180/user-profile.svg" alt="" />
+                </a> -->
+
+                <!-- <div>Profile</div> -->
+            </div>
+
+            <div>
+                <a href="">
+                    <img id="svg" src="https://www.svgrepo.com/show/14970/heart.svg" alt="" />
+                </a>
+
+                <div>Wishlist</div>
+            </div>
+
+            <div>
+                <a href="">
+                    <img id="svg" src="https://www.svgrepo.com/show/17522/bag.svg" alt="" />
+                </a>
+
+                <div>Bag</div>
+            </div>
+        </div>
+    </header>
+    <!-- End Of Nav-Bar -->
+    <div class="container">
+        
+        <div class="LazyLoad  is-visible" style="height: 200px; width: 100%; background: rgb(255, 242, 223);">
+            <picture class="img-responsive" style="width: 100%;">
+                <source
+                    srcset="//assets.myntassets.com/f_webp,dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2023/2/7/097fd01f-382e-428f-931e-ffa1d710710c1675792560652-offer-banner-400-1080x156-code-_-MYNTRA400.jpg"
+                    type="image/webp"><img
+                    src="//assets.myntassets.com/dpr_1.5,q_60,w_400,c_limit,fl_progressive/assets/images/2023/2/7/097fd01f-382e-428f-931e-ffa1d710710c1675792560652-offer-banner-400-1080x156-code-_-MYNTRA400.jpg"
+                    class="img-responsive preLoad loaded" alt="" title="" style="width: 100%;">
+            </picture>
+        </div>
+        <div class="forms">
+            <!-- Registration Form -->
+            <div class="form signup">
+                <span class="title">Login or Signup</span>
+
+                <form>
+                    <!-- <div class="input-field">
+                        <input type="text" placeholder="Create Username" id="user_name" />
+                        <i class="uil uil-user"></i>
+                    </div> -->
+                    <div class="input-field">
+                        <input type="text" placeholder="Create Email" id="email" />
+                        <i class="uil uil-envelope icon"></i>
+                    </div>
+                    <!-- <div class="input-field">
+                        <input type="password" class="password" placeholder="Create password" id="password" />
+                        <i class="uil uil-lock icon"></i>
+                    </div> -->
+
+
+                    <div class="input-field button">
+                        <input type="button" value="CONTINUE" class="login_btn" />
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="signup.js"></script>
 </body>
+
 </html>
