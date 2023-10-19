@@ -1,0 +1,23 @@
+#ProductBlock{
+    display: flex;
+}
+
+#ProductFilter{
+    border-right: 1px solid black;
+    width: 25%;
+    /* margin-right: 150px; */
+}
+
+#data{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    margin: 10px;
+}
+
+#data>div{
+    box-shadow: 0px 0px 5px gray;
+    text-align: center;
+    padding-bottom: 10px;
+}
