@@ -1,3 +1,86 @@
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    box-shadow: 0px 0px 5px gray;
+    margin-bottom: 10px;
+}
+
+#navbar>a{
+    width: 5%;
+    margin-left: 5px;
+    /* border: 1px solid purple; */
+}
+
+#navbar>a>img{
+    width: 100%;
+}
+
+.nav-first{
+    width: 40%;
+    text-align: center;
+    /* border: 1px solid red; */
+}
+
+.nav-first>ul{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    list-style-type: none;
+}
+
+.nav-first a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.search-div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 5px;
+    /* border: 1px solid green; */
+}
+
+.search-div>input{
+    width: 300px;
+    height: 40px;
+}
+
+.search-div>img{
+    width: 20px;
+    height: 20px;
+}
+
+.nav-last{
+    display: flex;
+    width: 13%;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid yellow; */
+}
+
+.nav-last img{
+    width: 20px;
+    height: 20px;
+}
+
+.nav-last>div{
+    text-align: center;
+}
+
+.ProductSelectBy{
+    display: flex;
+    justify-content: space-around;
+}
+
+.ProductSelectBy>select{
+    height: 50px;
+    width: 300px;
+}
+
 #ProductBlock{
     display: flex;
 }
@@ -12,7 +95,7 @@
     width: 75%;
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap: 10px;
+    gap: 60px;
     margin: 10px;
 }
 
@@ -20,4 +103,43 @@
     box-shadow: 0px 0px 5px gray;
     text-align: center;
     padding-bottom: 10px;
+}
+
+#data>div:hover{
+    box-shadow: 10px 5px 5px gray;
+}
+
+#data>div>div{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+@media only screen and (max-width: 800px) {
+    .nav-first{
+        display: none;
+    }
+    .search-div{
+        display: none;
+    }
+    .nav-last{
+        width: 40%;
+    }
+    #navbar>a{
+        width: 10%;
+    }
+    
+    #filterSelectBoxes{
+        display: none;
+    }
+
+    #data{
+        grid-template-columns: repeat(2,1fr);
+        gap: 10px;
+        margin: auto;
+    }
+    #ProductFilter{
+        display: none;
+    }
+
 }

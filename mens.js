@@ -917,27 +917,27 @@ arr.forEach(function(Item) {
   var brand = document.createElement("h5");
   var description = document.createElement("h5");
   var price = document.createElement("h5");
+  var off_price = document.createElement("h5");
+  var discount = document.createElement("h5");
   var btnWish = document.createElement("button");
-
-  var obj = {
-      img: Item.images,
-      brand: Item.brand,
-      description: Item.description,
-      price: Item.price
-  };
+  var showPrice = document.createElement("div");
 
   img.src = Item.images.image1;
   brand.innerText = Item.brand;
   description.innerText = Item.description;
-  price.innerText = "Our price " + Item.price;
-  btnWish.innerText = "Add to Wishlist";
+  price.innerText = Item.price;
+  off_price.innerHTML = `<strike>${Item.off_price}</strike>`;
+  off_price.style.color="gray"
+  discount.innerText = `(${Item.discount}% OFF)`;
+  discount.style.color="orange"
+  btnWish.innerText = "Add to Cart";
   
   // style
   img.style.width="100%";
-  
+  showPrice.append(price ,off_price, discount);
 
   var div = document.createElement("div");
-  div.append(img, brand, description, price, btnWish);
+  div.append(img, brand, description, showPrice, btnWish);
 
   var div1 = document.getElementById("data");
   div1.append(div);
@@ -946,6 +946,12 @@ arr.forEach(function(Item) {
       wishlist.push(obj);
       localStorage.setItem("wishlist", JSON.stringify(wishlist));
   }); 
+  btnWish.style.width="90%"
+
+  img.addEventListener("click", function(){
+    localStorage.setItem("details",JSON.stringify(Item));
+    window.location.href="productDetails.html";
+  });
 });
 }
 
