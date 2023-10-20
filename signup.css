@@ -137,9 +137,13 @@
     left: 0;
     bottom: 0;
     height: 3px;
-    width: 30px;
+    width: 28px;
     background-color: #ff3f6c;
     border-radius: 25px;
+  }
+  .forms .title>span{
+
+    font-weight: 100;
   }
   
   .form .input-field {
@@ -154,16 +158,21 @@
     height: 100%;
     width: 100%;
     padding: 0 35px;
-    border: none;
-    outline: none;
     font-size: 16px;
-    border-bottom: 2px solid #ccc;
-    border-top: 2px solid transparent;
     transition: all 0.2s ease;
   }
   .input-field input:focus {
     border-bottom-color: #ff3f6c;
   }
+
+  form .text{
+    margin-top: 25px;
+  }
+  form .text span{
+
+    color: #ff3f6c;
+  }
+
   
   .input-field i {
     position: absolute;
@@ -185,6 +194,7 @@
   
   .form .checkbox-text {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
