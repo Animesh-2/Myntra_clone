@@ -925,12 +925,12 @@ arr.forEach(function(Item) {
   img.src = Item.images.image1;
   brand.innerText = Item.brand;
   description.innerText = Item.description;
-  price.innerText = Item.price;
+  price.innerText = `Rs. ${Item.price}`;
   off_price.innerHTML = `<strike>${Item.off_price}</strike>`;
   off_price.style.color="gray"
   discount.innerText = `(${Item.discount}% OFF)`;
   discount.style.color="orange"
-  btnWish.innerText = "Add to Cart";
+  btnWish.innerText = "Add to Wishlist";
   
   // style
   img.style.width="100%";
@@ -943,7 +943,7 @@ arr.forEach(function(Item) {
   div1.append(div);
 
   btnWish.addEventListener("click", function() {
-      wishlist.push(obj);
+      wishlist.push(Item);
       localStorage.setItem("wishlist", JSON.stringify(wishlist));
   }); 
   btnWish.style.width="90%"
