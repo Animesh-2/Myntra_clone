@@ -460,7 +460,7 @@ const displayData = () => {
     var btnCart = document.getElementById("cart")
     btnCart.addEventListener("click", function() {
         cart.push(product);
-        localStorage.setItem("cartls", JSON.stringify(product));
+        localStorage.setItem("cartls", JSON.stringify(cart));
     });
 
     // Add to Wishlist
@@ -469,7 +469,7 @@ const displayData = () => {
     var btnWishlist = document.getElementById("wishlist")
     btnWishlist.addEventListener("click", function() {
         wishlist.push(product);
-        localStorage.setItem("wishlist", JSON.stringify(product));
+        localStorage.setItem("wishlist", JSON.stringify(wishlist));
     });
 }
 
