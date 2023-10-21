@@ -911,6 +911,10 @@ localStorage.setItem("MenData", JSON.stringify(mensData));
 
 var wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
 
+var total_item=document.getElementById("total-item")
+var total=mensData.length
+total_item.innerText=`${total} items`
+
 function displayProducts(arr){
 arr.forEach(function(Item) {
   var img = document.createElement("img");
