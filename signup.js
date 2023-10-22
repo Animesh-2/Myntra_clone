@@ -46,5 +46,5 @@ async function loadData(email, password, username){
   showAlert("Registration Successfull !");
   setTimeout(() => {
     window.location.href = "login.html";
-  }, 3000);
+  }, 2000);
 }
