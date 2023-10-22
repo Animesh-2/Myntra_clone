@@ -89,9 +89,9 @@ body {
     position: relative;
     left: 40px;
     display: flex;
-    width: 32%;
+    width: 30%;
     background-color: #f5f5f6;
-    height: 30px;
+    height: 42px;
     align-items: center;
     justify-content: flex-start;
     border-radius: 3px;
@@ -247,3 +247,13 @@ body {
     margin-top: 30px;
     text-align: center;
 }
+
+.custom-alert {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    margin: 10px;
+  }

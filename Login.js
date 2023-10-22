@@ -10,9 +10,9 @@ function loginData() {
   let p = psswrd.value;
 
   if (e.length == 0) {
-    alert("Please Enter UserName");
+    showAlert("Please Enter UserName");
   } else if (p.length == 0) {
-    alert("Please Enter Password");
+    showAlert("Please Enter Password");
   } else {
     loadData(e, p);
   }
@@ -21,13 +21,27 @@ function loginData() {
 async function loadData(e, p) {
   var result = JSON.parse(localStorage.getItem("id-details"));
   if (e == result.email && p == result.password) {
-    alert("Login Successfull!");
+    showAlert("Login Successfull!");
     window.location.href = "../HTML/home.html";
     email.value = "";
     psswrd.value = "";
   } else {
-    alert("No Account Found! Sign In Again !!");
+    showAlert("No Account Found! Sign In Again !!");
     email.value = "";
     psswrd.value = "";
   }
 }
+
+function showAlert(message) {
+    const alertDiv = document.createElement('div');
+    alertDiv.className = 'custom-alert'; // Apply the custom CSS class
+    alertDiv.textContent = message;
+
+    // Add the alert to the container
+    document.body.appendChild(alertDiv);
+
+    // Remove the alert after a certain time (optional)
+    setTimeout(() => {
+      document.body.removeChild(alertDiv);
+    }, 3000); // Remove after 3 seconds (adjust as needed)
+  }
