@@ -35,7 +35,7 @@ priceDetailsContainer.innerHTML =`<div class="priceDetails">PRICE DETAILS <span 
     <div>Total Amount</div>
     <div id="totalAmount">₹ 0</div>
   </div>`
-
+  
   amountDiv.append(priceDetailsContainer)
 
   //---------------------------------------------------------------------------

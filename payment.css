@@ -12,6 +12,7 @@ input::-webkit-inner-spin-button {
 body {
   font-family: "Whitney", Helvetica, Arial, sans-serif;
   color: black;
+  width: 100%;
 }
 .header {
   display: flex;
@@ -21,7 +22,7 @@ body {
   margin-top: 0.8%;
 }
 .hr1 {
-  width: 1450px;
+  width: 100lh;
   margin: 0 auto;
 }
 nav ul {
@@ -58,6 +59,21 @@ a {
   border-bottom: 2px solid rgb(43, 160, 92);
 }
 
+
+.main-content{
+  min-height: 80vh;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  /* background-color: #34495e; */
+  justify-content: space-around;
+}
+.main-content-left{
+  margin: 30px auto;
+  width: 55%;
+  /* background-color: rgb(241, 162, 162); */
+}
+
 .avail_offer {
   font-weight: 600;
   font-size: 14px;
@@ -67,7 +83,7 @@ a {
   border-radius: 5px;
   width: fit-content;
   margin-top: 12px;
-  margin-left: 18%;
+  margin-left: 10px;
   font-family: Whitney, Helvetica, Arial, sans-serif !important;
   line-height: 2;
   padding: 5px;
@@ -94,34 +110,15 @@ a {
   display: none;
 }
 
-#showMoreOffer {
-  padding-left: 15px;
-  font-size: 14px;
-  font-weight: 600;
-  text-transform: capitalize;
-  color: #ff3f6c;
-  cursor: pointer;
-  display: inline-block;
-  border: none;
-  background-color: white;
-  margin-left: -20px;
-  padding-top: 5px;
-  line-height: 1;
-}
-#showMoreOffer:hover {
-  text-decoration: underline;
-}
 h1 {
   padding: 0;
   color: #111;
-  text-align: left;
-  margin: 2rem 0 0 20rem;
+  text-align: center;
   font-size: 1.5rem;
 }
 .accordion {
-  width: 90%;
-  max-width: 500px;
-  margin: 2rem 0 0 20rem;
+  width: 80%;
+  margin: auto;
   display: flex;
   flex-direction: column;
   background-color: rgba(245, 245, 245, 0.596);
@@ -232,15 +229,33 @@ h1 {
   padding: 7px 180px;
 }
 
+#showMoreOffer {
+  padding-left: 15px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: capitalize;
+  color: #ff3f6c;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  background-color: white;
+  margin-left: -20px;
+  padding-top: 5px;
+  line-height: 1;
+}
+#showMoreOffer:hover {
+  text-decoration: underline;
+}
+
 .price-details {
+  width: 30%;
+  min-width: 250px;
+  margin:  30px auto ;
   color: #111;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 200px;
-  position: absolute;
-  top: 130px;
-  right: 150px;
   border-top: 2px solid rgba(128, 128, 128, 0.575);
   border-left: 2px solid rgba(128, 128, 128, 0.575);
   padding: 3% 0 0 3%;
@@ -251,9 +266,24 @@ h1 {
   display: flex;
   justify-content: space-between;
 }
+.price-2>span{
+  overflow: visible;
+}
 .price-details h3 {
   font-size: 14px;
+} 
+@media screen and (max-width:600px){
+  .main-content{
+    display: block;
+  }
+  .main-content>div{
+    width: 80%;
+  }
+  nav{
+    display: none;
+  }
 }
+/* footer */
 .knowmore {
   color: #ff3f6c;
   font-weight: 700;
@@ -264,10 +294,4 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 20px 250px 20px 250px;
-  position: fixed;
-  z-index: -1;
-  left: 0;
-  bottom: 0;
-  width: 100%;
 }

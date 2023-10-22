@@ -231,9 +231,9 @@ window.onclick = function(event) {
 
 let placeOrder= document.getElementById('placeOrder');
 placeOrder.addEventListener('click',() => {
-    goToPaymentPage()
+  goToPaymentPage()
 })
 
 const  goToPaymentPage =() => {
-   window.location.href = "../HTML/payment.html";
+  window.location.href = "../HTML/payment.html";
 }
