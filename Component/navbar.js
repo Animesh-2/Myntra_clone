@@ -336,12 +336,12 @@ function navbar() {
               <section>
                 <h2 class="item-4-heading">Kitchen & Table</h2>
                 <ul class="mega-links">
-                  <li><a href="#">Dinnerware & Serveware</a></li>
-                  <li><a href="#">Cups and Mugs</a></li>
-                  <li><a href="#">Bakeware & Cookware</a></li>
-                  <li><a href="#">Kitchen Storage & Tools</a></li>
-                  <li><a href="#">Bar & Drinkware</a></li>
-                  <li><a href="#">Table Covers & Furnishings</a></li>
+                  <li><a href="../HTML/product.html">Dinnerware & Serveware</a></li>
+                  <li><a href="../HTML/product.html">Cups and Mugs</a></li>
+                  <li><a href="../HTML/product.html">Bakeware & Cookware</a></li>
+                  <li><a href="../HTML/product.html">Kitchen Storage & Tools</a></li>
+                  <li><a href="../HTML/product.html">Bar & Drinkware</a></li>
+                  <li><a href="../HTML/product.html">Table Covers & Furnishings</a></li>
                 </ul>
                 <h2 class="item-4-heading">Storage</h2>
                 <ul class="mega-links">
