@@ -43,13 +43,8 @@ async function loadData(email, password, username){
 
   console.log(obj);
   localStorage.setItem("id-details", JSON.stringify(obj));
-  alert("Registration Successfull!");
-  window.location.href = "login.html";
+  showAlert("Registration Successfull !");
+  setTimeout(() => {
+    window.location.href = "login.html";
+  }, 3000);
 }
-
-document.querySelector('.hamburger').addEventListener('click', function() {
-  var navbarLinks = document.querySelectorAll('.navbar a');
-  navbarLinks.forEach(function(link) {
-      link.style.display = (link.style.display === 'block') ? 'none' : 'block';
-  });
-});
