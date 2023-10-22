@@ -317,15 +317,15 @@ function navbar() {
                 <h2 class="item-4-heading">Home Decor</h2>
                 <ul class="mega-links">
                   <li><a href="../HTML/product.html">Plants & Planters</a></li>
-                  <li><a href="#"> Aromas & Candles</a></li>
-                  <li><a href="#">Clocks</a></li>
-                  <li><a href="#">Mirrors</a></li>
-                  <li><a href="#">Wall Decor</a></li>
-                  <li><a href="#">Festive Decor</a></li>
-                  <li><a href="#">Pooja Essentials</a></li>
-                  <li><a href="#">Wall Shelves</a></li>
-                  <li><a href="#">Fountains</a></li>
-                  <li><a href="#">Showpiece & Vases</a></li>
+                  <li><a href="../HTML/product.html"> Aromas & Candles</a></li>
+                  <li><a href="../HTML/product.html">Clocks</a></li>
+                  <li><a href="../HTML/product.html">Mirrors</a></li>
+                  <li><a href="../HTML/product.html">Wall Decor</a></li>
+                  <li><a href="../HTML/product.html">Festive Decor</a></li>
+                  <li><a href="../HTML/product.html">Pooja Essentials</a></li>
+                  <li><a href="../HTML/product.html">Wall Shelves</a></li>
+                  <li><a href="../HTML/product.html">Fountains</a></li>
+                  <li><a href="../HTML/product.html">Showpiece & Vases</a></li>
                 </ul>
                 <h2 class="item-4-heading">Cushions & Cushion Covers</h2>
                 <h2 class="item-4-heading">Curtains</h2>
