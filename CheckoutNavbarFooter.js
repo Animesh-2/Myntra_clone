@@ -2,7 +2,7 @@ function navbar() {
   return ` <div class="header">
   <div class="logo">
     <img
-      src="https://cdn.freelogovectors.net/wp-content/uploads/2021/02/myntra-logo-freelogovectors.net_.png"
+      src="../IMAGES/Logo/myntra.svg"
       alt="Myntra"
       height="32px"
       width="40px"

@@ -1,4 +1,4 @@
-  import { navbar, footer } from "../Component/CheckoutNavbarFooter.js";
+  import { navbar, footer } from "../Component/CheckoutNavbarFooter.js";  //<!-- yha -->
 
   let headerEl = document.getElementById("headerEl");
   headerEl.innerHTML = navbar();
@@ -158,7 +158,7 @@ if(dataAdd  === null){
 }
 
     function addAddress(event){
-         event.preventDefault();
+        event.preventDefault();
         let name = document.getElementById("name").value;
         let mobileNum = document.getElementById("mobileNo").value;
         let  pincode= document.getElementById("pincode").value;
@@ -235,5 +235,5 @@ placeOrder.addEventListener('click',() => {
 })
 
 const  goToPaymentPage =() => {
-  window.location.href = "../HTML/payment.html";
+  window.location.href = "../HTML/payment.html";  //<!-- yha -->
 }
