@@ -316,7 +316,7 @@ function navbar() {
               <section>
                 <h2 class="item-4-heading">Home Decor</h2>
                 <ul class="mega-links">
-                  <li><a href="#">Plants & Planters</a></li>
+                  <li><a href="../HTML/product.html">Plants & Planters</a></li>
                   <li><a href="#"> Aromas & Candles</a></li>
                   <li><a href="#">Clocks</a></li>
                   <li><a href="#">Mirrors</a></li>
