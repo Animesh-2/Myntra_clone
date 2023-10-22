@@ -505,12 +505,12 @@ function navbar() {
       </li>
     </ul>
   </nav>
-  <div class="search-div">
-    <img
-      id="searchpng"
-      src="https://image.flaticon.com/icons/png/128/49/49116.png"
-      alt=""
-    />
+  <div id="search-div">
+  <img
+     id="searchpng"
+     src="https://image.flaticon.com/icons/png/128/49/49116.png"
+     alt=""
+  >
   
     <input
       type="text"
