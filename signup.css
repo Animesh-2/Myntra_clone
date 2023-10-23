@@ -126,6 +126,19 @@ body {
   overflow-x: hidden;
 }
 
+.container p {
+
+  margin-top: 7%;
+  text-align: center;
+  
+}
+
+.container p>a{
+
+  text-decoration: none;
+  color: #ff3f6c;
+}
+
 .container .forms {
   display: flex;
   align-items: center;

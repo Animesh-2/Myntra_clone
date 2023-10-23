@@ -43,5 +43,5 @@ function showAlert(message) {
     // Remove the alert after a certain time (optional)
     setTimeout(() => {
       document.body.removeChild(alertDiv);
-    }, 3000); // Remove after 3 seconds (adjust as needed)
+    }, 1000); // Remove after 1 seconds (adjust as needed)
   }
