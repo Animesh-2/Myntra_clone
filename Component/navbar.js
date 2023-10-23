@@ -1,6 +1,6 @@
 function navbar() {
     return ` <header class="header">
-    <a style="margin-left: 27px;cursor:pointer;" href="./HTML/home.html" class="logo"><img src="/IMAGES/images.png" alt=""></a>
+    <a style="margin-left: 27px;cursor:pointer;" href="./HTML/home.html" class="logo"><img src="afaqs_2021-01_15f5f827-8e29-4520-af8d-a0f353b8da17_images.webp" alt=""></a>
   
   <nav>
     <ul class="menu-items">
@@ -12,23 +12,23 @@ function navbar() {
               <section>
                 <h2 class="item-1-heading">Topwear</h2>
                 <ul class="mega-links">
-                  <li><a href="./HTML/product.html">T-Shirts</a></li>
-                  <li><a href="./HTML/product.html">Casual Shirts</a></li>
-                  <li><a href="./HTML/product.html">Formal Shirts</a></li>
-                  <li><a href="./HTML/product.html">SweatShirts</a></li>
-                  <li><a href="./HTML/product.html">Sweaters</a></li>
-                  <li><a href="./HTML/product.html">Jackets</a></li>
-                  <li><a href="./HTML/product.html">Blazers & Coats</a></li>
-                  <li><a href="./HTML/product.html">Suits</a></li>
-                  <li><a href="./HTML/product.html">Rain Jackets</a></li>
+                  <li><a href="mens.html">T-Shirts</a></li>
+                  <li><a href="mens.html">Casual Shirts</a></li>
+                  <li><a href="mens.html">Formal Shirts</a></li>
+                  <li><a href="mens.html">SweatShirts</a></li>
+                  <li><a href="mens.html">Sweaters</a></li>
+                  <li><a href="mens.html">Jackets</a></li>
+                  <li><a href="mens.html">Blazers & Coats</a></li>
+                  <li><a href="mens.html">Suits</a></li>
+                  <li><a href="mens.html">Rain Jackets</a></li>
                 </ul>
                 <h2 class="item-1-heading">Indian & Festive Wear</h2>
                 <ul class="mega-links">
-                  <li><a href="./HTML/product.html">Kurtas & Kurta Sets</a></li>
-                  <li><a href="./HTML/product.html">Sherwanis</a></li>
-                  <li><a href="./HTML/product.html">Nehru Jackets</a></li>
-                  <li><a href="./HTML/product.html">SweatShirts</a></li>
-                  <li><a href="./HTML/product.html">Dhotis</a></li>
+                  <li><a href="mens.html">Kurtas & Kurta Sets</a></li>
+                  <li><a href="mens.html">Sherwanis</a></li>
+                  <li><a href="mens.html">Nehru Jackets</a></li>
+                  <li><a href="mens.html">SweatShirts</a></li>
+                  <li><a href="mens.html">Dhotis</a></li>
                 </ul>
               </section>
             </div>
@@ -36,19 +36,19 @@ function navbar() {
               <section>
                 <h2 class="item-1-heading">Bottomwear</h2>
                 <ul class="mega-links">
-                  <li><a href="./HTML/product.html">Jeans</a></li>
-                  <li><a href="./HTML/product.html">Casual Trousers</a></li>
-                  <li><a href="./HTML/product.html">Formal Trousers</a></li>
-                  <li><a href="./HTML/product.html">Shorts</a></li>
-                  <li><a href="./HTML/product.html">Track pants & Joggers</a></li>
+                  <li><a href="mens.html">Jeans</a></li>
+                  <li><a href="mens.html">Casual Trousers</a></li>
+                  <li><a href="mens.html">Formal Trousers</a></li>
+                  <li><a href="mens.html">Shorts</a></li>
+                  <li><a href="mens.html">Track pants & Joggers</a></li>
                 </ul>
                 <h2 class="item-1-heading">Innerwear & Sleepwear</h2>
                 <ul class="mega-links">
-                  <li><a href="./HTML/product.html">Briefs & Trunks</a></li>
-                  <li><a href="./HTML/product.html">Boxers</a></li>
-                  <li><a href="./HTML/product.html">Vests</a></li>
-                  <li><a href="./HTML/product.html">Sleepwear & Loungewear</a></li>
-                  <li><a href="./HTML/product.html">Thermals</a></li>
+                  <li><a href="mens.html">Briefs & Trunks</a></li>
+                  <li><a href="mens.html">Boxers</a></li>
+                  <li><a href="mens.html">Vests</a></li>
+                  <li><a href="mens.html">Sleepwear & Loungewear</a></li>
+                  <li><a href="mens.html">Thermals</a></li>
                 </ul>
                 <h2 class="item-1-heading">Plus Size</h2>
               </section>
@@ -57,13 +57,13 @@ function navbar() {
               <section>
                 <h2 class="item-1-heading">Footwear</h2>
                 <ul class="mega-links">
-                  <li><a href="./HTML/product.html">Casual Shoes</a></li>
-                  <li><a href="./HTML/product.html"> Sports Shoes</a></li>
-                  <li><a href="./HTML/product.html">Formal Shoes</a></li>
-                  <li><a href="./HTML/product.html">Sneakers</a></li>
-                  <li><a href="./HTML/product.html">Sandals & Floaters</a></li>
-                  <li><a href="./HTML/product.html">Flip Flops</a></li>
-                  <li><a href="./HTML/product.html">Socks</a></li>
+                  <li><a href="mens.html">Casual Shoes</a></li>
+                  <li><a href="mens.html"> Sports Shoes</a></li>
+                  <li><a href="mens.html">Formal Shoes</a></li>
+                  <li><a href="mens.html">Sneakers</a></li>
+                  <li><a href="mens.html">Sandals & Floaters</a></li>
+                  <li><a href="mens.html">Flip Flops</a></li>
+                  <li><a href="mens.html">Socks</a></li>
                 </ul>
                 <h2 class="item-1-heading">Personal Care & Grooming</h2>
                 <h2 class="item-1-heading">Sunglasses & Frames</h2>
@@ -74,20 +74,20 @@ function navbar() {
               <section>
                 <h2 class="item-1-heading">Sports & Active Wear</h2>
                 <ul class="mega-links">
-                  <li><a href="./HTML/product.html">Sports Shoes</a></li>
-                  <li><a href="./HTML/product.html">Sports Sandals</a></li>
-                  <li><a href="./HTML/product.html">Active T-Shirts</a></li>
-                  <li><a href="./HTML/product.html">Tracksuits</a></li>
-                  <li><a href="./HTML/product.html">Jackets & Sweatshirts</a></li>
-                  <li><a href="./HTML/product.html">Sports Accessories</a></li>
-                  <li><a href="./HTML/product.html">Swimwear</a></li>
+                  <li><a href="mens.html">Sports Shoes</a></li>
+                  <li><a href="mens.html">Sports Sandals</a></li>
+                  <li><a href="mens.html">Active T-Shirts</a></li>
+                  <li><a href="mens.html">Tracksuits</a></li>
+                  <li><a href="mens.html">Jackets & Sweatshirts</a></li>
+                  <li><a href="mens.html">Sports Accessories</a></li>
+                  <li><a href="mens.html">Swimwear</a></li>
                 </ul>
                 <h2 class="item-1-heading">Gadgets</h2>
                 <ul class="mega-links">
-                  <li><a href="./HTML/product.html">Smart Wearables</a></li>
-                  <li><a href="./HTML/product.html">Fitness Gadgets</a></li>
-                  <li><a href="./HTML/product.html">Headphones</a></li>
-                  <li><a href="./HTML/product.html">Speakers</a></li>
+                  <li><a href="mens.html">Smart Wearables</a></li>
+                  <li><a href="mens.html">Fitness Gadgets</a></li>
+                  <li><a href="mens.html">Headphones</a></li>
+                  <li><a href="mens.html">Speakers</a></li>
                 </ul>
               </section>
             </div>
@@ -102,16 +102,16 @@ function navbar() {
               <section>
                 <h2 class="item-2-heading">Indian & Fusion Wear</h2>
                 <ul class="mega-links">
-                  <li><a href="./HTML/product.html">Kurtas & Suits</a></li>
-                  <li><a href="./HTML/product.html">Kurtis,Tunics & Tops</a></li>
-                  <li><a href="./HTML/product.html">Ethinc Wear</a></li>
-                  <li><a href="./HTML/product.html">Leggings,Salwars & Churidars</a></li>
-                  <li><a href="./HTML/product.html">Skirts & Palazzos</a></li>
-                  <li><a href="./HTML/product.html">Sarees</a></li>
-                  <li><a href="./HTML/product.html">Dress Materials</a></li>
-                  <li><a href="./HTML/product.html">Lehenga Cholis</a></li>
-                  <li><a href="./HTML/product.html">Dupatta & Shawls</a></li>
-                  <li><a href="./HTML/product.html">Jackets</a></li>
+                  <li><a href="mens.html">Kurtas & Suits</a></li>
+                  <li><a href="mens.html">Kurtis,Tunics & Tops</a></li>
+                  <li><a href="mens.html">Ethinc Wear</a></li>
+                  <li><a href="mens.html">Leggings,Salwars & Churidars</a></li>
+                  <li><a href="mens.html">Skirts & Palazzos</a></li>
+                  <li><a href="mens.html">Sarees</a></li>
+                  <li><a href="mens.html">Dress Materials</a></li>
+                  <li><a href="mens.html">Lehenga Cholis</a></li>
+                  <li><a href="mens.html">Dupatta & Shawls</a></li>
+                  <li><a href="mens.html">Jackets</a></li>
                 </ul>
                 <h2 class="item-2-heading">Belts, Scarves & More</h2>
                 <h2 class="item-2-heading">Watches & Wearables</h2>
@@ -121,19 +121,19 @@ function navbar() {
               <section>
                 <h2 class="item-2-heading">Wester Wear</h2>
                 <ul class="mega-links">
-                  <li><a href="./HTML/product.html">Dresses</a></li>
-                  <li><a href="./HTML/product.html">Tops</a></li>
-                  <li><a href="./HTML/product.html">Tshirts</a></li>
-                  <li><a href="./HTML/product.html">Jeans</a></li>
-                  <li><a href="./HTML/product.html">Trousers & Capris</a></li>
-                  <li><a href="./HTML/product.html">Shorts & Skirts</a></li>
-                  <li><a href="./HTML/product.html">Co-ords</a></li>
-                  <li><a href="./HTML/product.html">Playsuits</a></li>
-                  <li><a href="./HTML/product.html">Jumpsuits</a></li>
-                  <li><a href="./HTML/product.html">Shrugs</a></li>
-                  <li><a href="./HTML/product.html">Sweaters & Sweatshirts</a></li>
-                  <li><a href="./HTML/product.html">Jaackets & Coats</a></li>
-                  <li><a href="./HTML/product.html">Blazers & Waistcoats</a></li>
+                  <li><a href="mens.html">Dresses</a></li>
+                  <li><a href="mens.html">Tops</a></li>
+                  <li><a href="mens.html">Tshirts</a></li>
+                  <li><a href="mens.html">Jeans</a></li>
+                  <li><a href="mens.html">Trousers & Capris</a></li>
+                  <li><a href="mens.html">Shorts & Skirts</a></li>
+                  <li><a href="mens.html">Co-ords</a></li>
+                  <li><a href="mens.html">Playsuits</a></li>
+                  <li><a href="mens.html">Jumpsuits</a></li>
+                  <li><a href="mens.html">Shrugs</a></li>
+                  <li><a href="mens.html">Sweaters & Sweatshirts</a></li>
+                  <li><a href="mens.html">Jaackets & Coats</a></li>
+                  <li><a href="mens.html">Blazers & Waistcoats</a></li>
                 </ul>
               </section>
             </div>
@@ -141,13 +141,13 @@ function navbar() {
               <section>
                 <h2 class="item-2-heading">Shop By Occasion</h2>
                 <ul class="mega-links">
-                  <li><a href="./HTML/product.html">Office</a></li>
-                  <li><a href="./HTML/product.html">Casual Outing</a></li>
-                  <li><a href="./HTML/product.html">Wedding</a></li>
-                  <li><a href="./HTML/product.html">Party</a></li>
-                  <li><a href="./HTML/product.html">Workout</a></li>
-                  <li><a href="./HTML/product.html">Vacation</a></li>
-                  <li><a href="./HTML/product.html">At Home</a></li>
+                  <li><a href="mens.html">Office</a></li>
+                  <li><a href="mens.html">Casual Outing</a></li>
+                  <li><a href="mens.html">Wedding</a></li>
+                  <li><a href="mens.html">Party</a></li>
+                  <li><a href="mens.html">Workout</a></li>
+                  <li><a href="mens.html">Vacation</a></li>
+                  <li><a href="mens.html">At Home</a></li>
                 </ul>
                 <h2 class="item-2-heading">Plus Size</h2>
                 <h2 class="item-2-heading">Maternity</h2>
@@ -158,18 +158,18 @@ function navbar() {
               <section>
                 <h2 class="item-2-heading">Footwear</h2>
                 <ul class="mega-links">
-                  <li><a href="./HTML/product.html">Flats</a></li>
-                  <li><a href="./HTML/product.html">Casual Shoes</a></li>
-                  <li><a href="./HTML/product.html">Heels</a></li>
-                  <li><a href="./HTML/product.html">Boots</a></li>
-                  <li><a href="./HTML/product.html">Sports Shoes & Floaters</a></li>
+                  <li><a href="mens.html">Flats</a></li>
+                  <li><a href="mens.html">Casual Shoes</a></li>
+                  <li><a href="mens.html">Heels</a></li>
+                  <li><a href="mens.html">Boots</a></li>
+                  <li><a href="mens.html">Sports Shoes & Floaters</a></li>
                 </ul>
                 <h2 class="item-2-heading">Sports & Active Wear</h2>
                 <ul class="mega-links">
-                  <li><a href="./HTML/product.html">Cloathing</a></li>
-                  <li><a href="./HTML/product.html">Footwear</a></li>
-                  <li><a href="./HTML/product.html">Sports Accessories</a></li>
-                  <li><a href="./HTML/product.html">Sports Equipment</a></li>
+                  <li><a href="mens.html">Cloathing</a></li>
+                  <li><a href="mens.html">Footwear</a></li>
+                  <li><a href="mens.html">Sports Accessories</a></li>
+                  <li><a href="mens.html">Sports Equipment</a></li>
                 </ul>
               </section>
             </div>
@@ -184,19 +184,19 @@ function navbar() {
               <section>
                 <h2 class="item-3-heading">Boys Clothing</h2>
                 <ul class="mega-links">
-                  <li><a href="./HTML/product.html">T-Shirts</a></li>
-                  <li><a href="./HTML/product.html">Shirts</a></li>
-                  <li><a href="./HTML/product.html">Shorts</a></li>
-                  <li><a href="./HTML/product.html">Jeans</a></li>
-                  <li><a href="./HTML/product.html">Trousers</a></li>
-                  <li><a href="./HTML/product.html">Clothing Sets</a></li>
-                  <li><a href="./HTML/product.html">Ethinic Wear</a></li>
-                  <li><a href="./HTML/product.html">Track Pants & Pyjamas</a></li>
-                  <li><a href="./HTML/product.html">Jacket,Sweater & Sweatshirts</a></li>
-                  <li><a href="./HTML/product.html">Party Wear</a></li>
-                  <li><a href="./HTML/product.html">Innerwear & Thermals</a></li>
-                  <li><a href="./HTML/product.html">Nightwear & Loungewear</a></li>
-                  <li><a href="./HTML/product.html">Value Packs</a></li>
+                  <li><a href="mens.html">T-Shirts</a></li>
+                  <li><a href="mens.html">Shirts</a></li>
+                  <li><a href="mens.html">Shorts</a></li>
+                  <li><a href="mens.html">Jeans</a></li>
+                  <li><a href="mens.html">Trousers</a></li>
+                  <li><a href="mens.html">Clothing Sets</a></li>
+                  <li><a href="mens.html">Ethinic Wear</a></li>
+                  <li><a href="mens.html">Track Pants & Pyjamas</a></li>
+                  <li><a href="mens.html">Jacket,Sweater & Sweatshirts</a></li>
+                  <li><a href="mens.html">Party Wear</a></li>
+                  <li><a href="mens.html">Innerwear & Thermals</a></li>
+                  <li><a href="mens.html">Nightwear & Loungewear</a></li>
+                  <li><a href="mens.html">Value Packs</a></li>
                 </ul>
               </section>
             </div>
@@ -204,20 +204,20 @@ function navbar() {
               <section>
                 <h2 class="item-3-heading">Girls Clothing</h2>
                 <ul class="mega-links">
-                  <li><a href="./HTML/product.html">Dresses</a></li>
-                  <li><a href="./HTML/product.html">Tops</a></li>
-                  <li><a href="./HTML/product.html">Tshirts</a></li>
-                  <li><a href="./HTML/product.html">Clothing Sets</a></li>
-                  <li><a href="./HTML/product.html">Lehenga Choli</a></li>
-                  <li><a href="./HTML/product.html">Kurta Sets</a></li>
-                  <li><a href="./HTML/product.html">Party wear</a></li>
-                  <li><a href="./HTML/product.html">Dungarees & Jumpsuits</a></li>
-                  <li><a href="./HTML/product.html">Skirts & shorts</a></li>
-                  <li><a href="./HTML/product.html">Tights & Leggings</a></li>
-                  <li><a href="./HTML/product.html">Jeans, Trousers & Capris</a></li>
-                  <li><a href="./HTML/product.html">Innerwear & Thermals</a></li>
-                  <li><a href="./HTML/product.html">Nightwear & Loungewear</a></li>
-                  <li><a href="./HTML/product.html">Value Packs</a></li>
+                  <li><a href="mens.html">Dresses</a></li>
+                  <li><a href="mens.html">Tops</a></li>
+                  <li><a href="mens.html">Tshirts</a></li>
+                  <li><a href="mens.html">Clothing Sets</a></li>
+                  <li><a href="mens.html">Lehenga Choli</a></li>
+                  <li><a href="mens.html">Kurta Sets</a></li>
+                  <li><a href="mens.html">Party wear</a></li>
+                  <li><a href="mens.html">Dungarees & Jumpsuits</a></li>
+                  <li><a href="mens.html">Skirts & shorts</a></li>
+                  <li><a href="mens.html">Tights & Leggings</a></li>
+                  <li><a href="mens.html">Jeans, Trousers & Capris</a></li>
+                  <li><a href="mens.html">Innerwear & Thermals</a></li>
+                  <li><a href="mens.html">Nightwear & Loungewear</a></li>
+                  <li><a href="mens.html">Value Packs</a></li>
                 </ul>
               </section>
             </div>
@@ -225,20 +225,20 @@ function navbar() {
               <section>
                 <h2 class="item-3-heading">Footwear</h2>
                 <ul class="mega-links">
-                  <li><a href="./HTML/product.html">Casual Shoes</a></li>
-                  <li><a href="./HTML/product.html"> Flipflops</a></li>
-                  <li><a href="./HTML/product.html">Sports Shoes</a></li>
-                  <li><a href="./HTML/product.html">Flats</a></li>
-                  <li><a href="./HTML/product.html">sandals</a></li>
-                  <li><a href="./HTML/product.html">Heels</a></li>
-                  <li><a href="./HTML/product.html">Socks</a></li>
+                  <li><a href="mens.html">Casual Shoes</a></li>
+                  <li><a href="mens.html"> Flipflops</a></li>
+                  <li><a href="mens.html">Sports Shoes</a></li>
+                  <li><a href="mens.html">Flats</a></li>
+                  <li><a href="mens.html">sandals</a></li>
+                  <li><a href="mens.html">Heels</a></li>
+                  <li><a href="mens.html">Socks</a></li>
                 </ul>
                 <h2 class="item-3-heading">Toys</h2>
                 <ul class="mega-links">
-                  <li><a href="./HTML/product.html">Learning & Development</a></li>
-                  <li><a href="./HTML/product.html"> Activity Toys</a></li>
-                  <li><a href="./HTML/product.html">Soft Toys</a></li>
-                  <li><a href="./HTML/product.html">Action Figure / Play set</a></li>
+                  <li><a href="mens.html">Learning & Development</a></li>
+                  <li><a href="mens.html"> Activity Toys</a></li>
+                  <li><a href="mens.html">Soft Toys</a></li>
+                  <li><a href="mens.html">Action Figure / Play set</a></li>
                 </ul>
               </section>
             </div>
@@ -246,15 +246,15 @@ function navbar() {
               <section>
                 <h2 class="item-3-heading">Infants</h2>
                 <ul class="mega-links">
-                  <li><a href="./HTML/product.html">Bodysuits</a></li>
-                  <li><a href="./HTML/product.html">Rompers & sleepsuits</a></li>
-                  <li><a href="./HTML/product.html">Clothing Sets</a></li>
-                  <li><a href="./HTML/product.html">Tshirts & Tops</a></li>
-                  <li><a href="./HTML/product.html">Dresses</a></li>
-                  <li><a href="./HTML/product.html">Bottom Wear</a></li>
-                  <li><a href="./HTML/product.html">Winter Wear</a></li>
-                  <li><a href="./HTML/product.html">Innerwear & Sleepwear</a></li>
-                  <li><a href="./HTML/product.html">Infant Care</a></li>
+                  <li><a href="mens.html">Bodysuits</a></li>
+                  <li><a href="mens.html">Rompers & sleepsuits</a></li>
+                  <li><a href="mens.html">Clothing Sets</a></li>
+                  <li><a href="mens.html">Tshirts & Tops</a></li>
+                  <li><a href="mens.html">Dresses</a></li>
+                  <li><a href="mens.html">Bottom Wear</a></li>
+                  <li><a href="mens.html">Winter Wear</a></li>
+                  <li><a href="mens.html">Innerwear & Sleepwear</a></li>
+                  <li><a href="mens.html">Infant Care</a></li>
                 </ul>
                 <h2 class="item-3-heading">Home & Bath</h2>
                 <h2 class="item-3-heading">Personal Care</h2>
@@ -271,20 +271,20 @@ function navbar() {
               <section>
                 <h2 class="item-4-heading">Bed Linen & Furnishing</h2>
                 <ul class="mega-links">
-                  <li><a href="./HTML/product.html">Bedsheets</a></li>
-                  <li><a href="./HTML/product.html">Bedding Sets</a></li>
-                  <li><a href="./HTML/product.html">Blankets,Quilts & Dohars</a></li>
-                  <li><a href="./HTML/product.html">Pillows & Pillow Covers</a></li>
-                  <li><a href="./HTML/product.html">Bed Covers</a></li>
-                  <li><a href="./HTML/product.html">Diwan Sets</a></li>
-                  <li><a href="./HTML/product.html">Chair Pads & Covers</a></li>
-                  <li><a href="./HTML/product.html">Sofa Covers</a></li>
+                  <li><a href="mens.html">Bedsheets</a></li>
+                  <li><a href="mens.html">Bedding Sets</a></li>
+                  <li><a href="mens.html">Blankets,Quilts & Dohars</a></li>
+                  <li><a href="mens.html">Pillows & Pillow Covers</a></li>
+                  <li><a href="mens.html">Bed Covers</a></li>
+                  <li><a href="mens.html">Diwan Sets</a></li>
+                  <li><a href="mens.html">Chair Pads & Covers</a></li>
+                  <li><a href="mens.html">Sofa Covers</a></li>
                 </ul>
                 <h2 class="item-4-heading">Flooring</h2>
                 <ul class="mega-links">
-                  <li><a href="./HTML/product.html">Carpets</a></li>
-                  <li><a href="./HTML/product.html">Floor Mats & Dhurries</a></li>
-                  <li><a href="./HTML/product.html">Door Mats</a></li>
+                  <li><a href="mens.html">Carpets</a></li>
+                  <li><a href="mens.html">Floor Mats & Dhurries</a></li>
+                  <li><a href="mens.html">Door Mats</a></li>
                 </ul>
               </section>
             </div>
@@ -292,23 +292,23 @@ function navbar() {
               <section>
                 <h2 class="item-4-heading">Bath</h2>
                 <ul class="mega-links">
-                  <li><a href="./HTML/product.html">Bath Towels</a></li>
-                  <li><a href="./HTML/product.html">Hand & Face Towels</a></li>
-                  <li><a href="./HTML/product.html">Beach Towels</a></li>
-                  <li><a href="./HTML/product.html">Towels Set</a></li>
-                  <li><a href="./HTML/product.html">Bath Rugs</a></li>
-                  <li><a href="./HTML/product.html">Bath Robes</a></li>
-                  <li><a href="./HTML/product.html">Bathroom Accessories</a></li>
-                  <li><a href="./HTML/product.html">Shower Curtains</a></li>
+                  <li><a href="mens.html">Bath Towels</a></li>
+                  <li><a href="mens.html">Hand & Face Towels</a></li>
+                  <li><a href="mens.html">Beach Towels</a></li>
+                  <li><a href="mens.html">Towels Set</a></li>
+                  <li><a href="mens.html">Bath Rugs</a></li>
+                  <li><a href="mens.html">Bath Robes</a></li>
+                  <li><a href="mens.html">Bathroom Accessories</a></li>
+                  <li><a href="mens.html">Shower Curtains</a></li>
                 </ul>
                 <h2 class="item-4-heading">Lamps & Lighting</h2>
                 <ul class="mega-links">
-                  <li><a href="./HTML/product.html">Floor Lamps</a></li>
-                  <li><a href="./HTML/product.html">Ceiling Lamps</a></li>
-                  <li><a href="./HTML/product.html">Table Lamps</a></li>
-                  <li><a href="./HTML/product.html">Wall Lamps</a></li>
-                  <li><a href="./HTML/product.html">Outdoor Lamps</a></li>
-                  <li><a href="./HTML/product.html">String Lights</a></li>
+                  <li><a href="mens.html">Floor Lamps</a></li>
+                  <li><a href="mens.html">Ceiling Lamps</a></li>
+                  <li><a href="mens.html">Table Lamps</a></li>
+                  <li><a href="mens.html">Wall Lamps</a></li>
+                  <li><a href="mens.html">Outdoor Lamps</a></li>
+                  <li><a href="mens.html">String Lights</a></li>
                 </ul>
               </section>
             </div>
@@ -316,16 +316,16 @@ function navbar() {
               <section>
                 <h2 class="item-4-heading">Home Decor</h2>
                 <ul class="mega-links">
-                  <li><a href="./HTML/product.html">Plants & Planters</a></li>
-                  <li><a href="./HTML/product.html"> Aromas & Candles</a></li>
-                  <li><a href="./HTML/product.html">Clocks</a></li>
-                  <li><a href="./HTML/product.html">Mirrors</a></li>
-                  <li><a href="./HTML/product.html">Wall Decor</a></li>
-                  <li><a href="./HTML/product.html">Festive Decor</a></li>
-                  <li><a href="./HTML/product.html">Pooja Essentials</a></li>
-                  <li><a href="./HTML/product.html">Wall Shelves</a></li>
-                  <li><a href="./HTML/product.html">Fountains</a></li>
-                  <li><a href="./HTML/product.html">Showpiece & Vases</a></li>
+                  <li><a href="mens.html">Plants & Planters</a></li>
+                  <li><a href="mens.html"> Aromas & Candles</a></li>
+                  <li><a href="mens.html">Clocks</a></li>
+                  <li><a href="mens.html">Mirrors</a></li>
+                  <li><a href="mens.html">Wall Decor</a></li>
+                  <li><a href="mens.html">Festive Decor</a></li>
+                  <li><a href="mens.html">Pooja Essentials</a></li>
+                  <li><a href="mens.html">Wall Shelves</a></li>
+                  <li><a href="mens.html">Fountains</a></li>
+                  <li><a href="mens.html">Showpiece & Vases</a></li>
                 </ul>
                 <h2 class="item-4-heading">Cushions & Cushion Covers</h2>
                 <h2 class="item-4-heading">Curtains</h2>
@@ -336,12 +336,12 @@ function navbar() {
               <section>
                 <h2 class="item-4-heading">Kitchen & Table</h2>
                 <ul class="mega-links">
-                  <li><a href="./HTML/product.html">Dinnerware & Serveware</a></li>
-                  <li><a href="./HTML/product.html">Cups and Mugs</a></li>
-                  <li><a href="./HTML/product.html">Bakeware & Cookware</a></li>
-                  <li><a href="./HTML/product.html">Kitchen Storage & Tools</a></li>
-                  <li><a href="./HTML/product.html">Bar & Drinkware</a></li>
-                  <li><a href="./HTML/product.html">Table Covers & Furnishings</a></li>
+                  <li><a href="mens.html">Dinnerware & Serveware</a></li>
+                  <li><a href="mens.html">Cups and Mugs</a></li>
+                  <li><a href="mens.html">Bakeware & Cookware</a></li>
+                  <li><a href="mens.html">Kitchen Storage & Tools</a></li>
+                  <li><a href="mens.html">Bar & Drinkware</a></li>
+                  <li><a href="mens.html">Table Covers & Furnishings</a></li>
                 </ul>
                 <h2 class="item-4-heading">Storage</h2>
                 <ul class="mega-links">
