@@ -1,6 +1,6 @@
 function navbar() {
     return ` <header class="header">
-    <a style="margin-left: 27px;cursor:pointer;" href="./HTML/home.html" class="logo"><img src="afaqs_2021-01_15f5f827-8e29-4520-af8d-a0f353b8da17_images.webp" alt=""></a>
+    <a style="margin-left: 27px;cursor:pointer;" href="index.html" class="logo"><img src="afaqs_2021-01_15f5f827-8e29-4520-af8d-a0f353b8da17_images.webp" alt=""></a>
   
   <nav>
     <ul class="menu-items">
