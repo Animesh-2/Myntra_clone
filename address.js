@@ -1,4 +1,4 @@
-  import { navbar, footer } from "../Component/CheckoutNavbarFooter.js";  //<!-- yha -->
+  import { navbar, footer } from "CheckoutNavbarFooter.js";  //<!-- yha -->
 
   let headerEl = document.getElementById("headerEl");
   headerEl.innerHTML = navbar();
@@ -235,5 +235,5 @@ placeOrder.addEventListener('click',() => {
 })
 
 const  goToPaymentPage =() => {
-  window.location.href = "../HTML/payment.html";  //<!-- yha -->
+  window.location.href = "payment.html";  //<!-- yha -->
 }

@@ -25,7 +25,7 @@ var form = document
       redirect_Page();
       function redirect_Page() {
         let tID = setTimeout(function () {
-          window.location.href = "../HTML/thankyou.html";   <!-- yha -->
+          window.location.href = "thankyou.html"; 
           window.clearTimeout(tID);
         }, 2000);
       }
@@ -63,7 +63,7 @@ btn.addEventListener("click", () => {
     redirect_Page();
     function redirect_Page() {
       let tID = setTimeout(function () {
-        window.location.href = "../HTML/thankyou.html";   <!-- yha -->
+        window.location.href = "thankyou.html";  
         window.clearTimeout(tID);
       }, 2000);
     }

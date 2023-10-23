@@ -1,4 +1,4 @@
-import { navbar, footer } from "../Component/CheckoutNavbarFooter.js";  //<!-- yha -->
+import { navbar, footer } from "CheckoutNavbarFooter.js";  //<!-- yha -->
 
 let headerEl = document.getElementById("headerEl");
 headerEl.innerHTML = navbar();
@@ -118,5 +118,5 @@ priceDetailsContainer.innerHTML =`<div class="priceDetails">PRICE DETAILS <span 
       }
 
       function goToAdressPage(){
-        window.location.href ='../HTML/address.html'  //<!-- yha -->
+        window.location.href ='address.html'  //<!-- yha -->
       }
