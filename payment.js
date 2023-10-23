@@ -25,7 +25,7 @@ var form = document
       redirect_Page();
       function redirect_Page() {
         let tID = setTimeout(function () {
-          window.location.href = "../HTML/thankyou.html";  //<!-- yha -->
+          window.location.href = "../HTML/thankyou.html";
           window.clearTimeout(tID);
         }, 2000);
       }
@@ -63,7 +63,7 @@ btn.addEventListener("click", () => {
     redirect_Page();
     function redirect_Page() {
       let tID = setTimeout(function () {
-        window.location.href = "../HTML/thankyou.html";  //<!-- yha -->
+        window.location.href = "../HTML/thankyou.html";
         window.clearTimeout(tID);
       }, 2000);
     }
@@ -123,7 +123,7 @@ changedPrice.innerHTML = `
   <p>Discount on MRP</p>
   <span>&#8377;-${discount(Price_after_discount)}.00</span>
 </div>
-<div class="price-2">
+<div class="price-3">
   <p>Convenience Fee</p>
   <span class="knowmore">Know More</span>
   <span>FREE</span>
