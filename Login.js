@@ -10,7 +10,7 @@ function loginData() {
   let p = psswrd.value;
 
   if (e.length == 0) {
-    showAlert("Please Enter UserName");
+    showAlert("Please Enter UserName or Email");
   } else if (p.length == 0) {
     showAlert("Please Enter Password");
   } else {
@@ -20,7 +20,7 @@ function loginData() {
 
 async function loadData(e, p) {
   var result = JSON.parse(localStorage.getItem("id-details"));
-  if (e == result.email && p == result.password) {
+  if ((e == result.email || e == result.username) && (p == result.password)) {
     showAlert("Login Successfull!");
     window.location.href = "../HTML/home.html";
     email.value = "";

@@ -8,15 +8,19 @@ login_btn.addEventListener("click", registerData);
 function registerData() {
   if (user_name.value.length == 0) {
     showAlert("please Enter User Name");
-  } 
+  }
   else if (email.value.length == 0) {
     showAlert("please Enter Email");
-  } 
+  }
   else if (password.value.length == 0) {
     showAlert("please Enter Password");
-  } 
+  }
   else {
     loadData(email.value, password.value, user_name.value);
+
+    user_name.value = "";
+    email.value = "";
+    password.value = "";
   }
 }
 
@@ -31,10 +35,10 @@ function showAlert(message) {
   // Remove the alert after a certain time (optional)
   setTimeout(() => {
     document.body.removeChild(alertDiv);
-  }, 3000); // Remove after 3 seconds (adjust as needed)
+  }, 2000); // Remove after 3 seconds (adjust as needed)
 }
 
-async function loadData(email, password, username){
+async function loadData(email, password, username) {
   let obj = {
     email: email,
     password: password,
@@ -46,5 +50,6 @@ async function loadData(email, password, username){
   showAlert("Registration Successfull !");
   setTimeout(() => {
     window.location.href = "login.html";
-  }, 1000);
+  }, 1500);
+
 }
