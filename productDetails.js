@@ -104,60 +104,6 @@ let items = [
       rating: 4.2,
       count: 68.9,
     },
-  
-    {
-      id: 115,
-      categories: "tshirt",
-      size: "Sizes : 39, 40, 42, 44...",
-      title: "Men Yellow Printed Cotton Pure Cotton T-shirt",
-      price: 314,
-      gender: "men",
-      description: "Men Yellow Printed Cotton Pure Cotton T-shirt",
-      brand: "HRX by Hrithik Roshan",
-      color: "yellow",
-      discount: 55,
-      off_price: 699,
-      images: {
-        image1:
-          "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1700944/2019/6/8/972c9498-3a37-4d5d-976c-4493b4d5c0021559989322793-HRX-by-Hrithik-Roshan-Men-Yellow-Printed-Round-Neck-T-Shirt--1.jpg",
-        image2:
-          "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1700944/2019/6/8/c3d336e4-8c86-4434-94b2-c9b28b6dd6471559989322777-HRX-by-Hrithik-Roshan-Men-Yellow-Printed-Round-Neck-T-Shirt--2.jpg",
-        image3:
-          "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1700944/2019/6/8/20153ade-f325-4613-a851-f79f8dc00c571559989322759-HRX-by-Hrithik-Roshan-Men-Yellow-Printed-Round-Neck-T-Shirt--3.jpg",
-        image4:
-          "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1700944/2019/6/8/67f8fc06-3131-4ae9-a869-2b485f0aca3c1559989322742-HRX-by-Hrithik-Roshan-Men-Yellow-Printed-Round-Neck-T-Shirt--4.jpg",
-      },
-      rating: 4.5,
-      count: 41.5,
-    },
-  
-    {
-      id: 101,
-      categories: "tshirt",
-      size: "Sizes : 39, 40, 42, 44...",
-      title: "Men Black Brand Logo Cloudspun Training or Gym T-shirt",
-      price: 2999,
-      gender: "men",
-      description: "Men Black Brand Logo Cloudspun Training or Gym T-shirt",
-      brand: "Puma",
-      color: "Black",
-      discount: 5,
-      off_price: 3250,
-      images: {
-        image1:
-          "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16848292/2022/2/3/213d6e5d-f54b-4a7a-a28c-3647c48206fc1643864863747-Puma-Men-Black-Brand-Logo-Training-or-Gym-T-shirt-3461643864-1.jpg",
-        image2:
-          "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16848292/2022/2/3/e105d206-5f55-45c6-a8f7-c06af95b48e81643864863725-Puma-Men-Black-Brand-Logo-Training-or-Gym-T-shirt-3461643864-2.jpg",
-        image3:
-          "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16848292/2022/2/3/048d1e12-ef69-4415-acdb-64b3163859161643864863716-Puma-Men-Black-Brand-Logo-Training-or-Gym-T-shirt-3461643864-3.jpg",
-        image4:
-          "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16848292/2022/2/3/4145b614-6c89-4f39-bd8e-ee359c467c311643864863693-Puma-Men-Black-Brand-Logo-Training-or-Gym-T-shirt-3461643864-5.jpg",
-      },
-      rating: 5,
-      count: 2.6,
-    },
-  
-  
     {
       id: 102,
       categories: "tshirt",
@@ -183,7 +129,56 @@ let items = [
       rating: 8,
       count: 12.8,
     },
-  
+    {
+      id: 101,
+      categories: "tshirt",
+      size: "Sizes : 39, 40, 42, 44...",
+      title: "Men Black Brand Logo Cloudspun Training or Gym T-shirt",
+      price: 2999,
+      gender: "men",
+      description: "Men Black Brand Logo Cloudspun Training or Gym T-shirt",
+      brand: "Puma",
+      color: "Black",
+      discount: 5,
+      off_price: 3250,
+      images: {
+        image1:
+          "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16848292/2022/2/3/213d6e5d-f54b-4a7a-a28c-3647c48206fc1643864863747-Puma-Men-Black-Brand-Logo-Training-or-Gym-T-shirt-3461643864-1.jpg",
+        image2:
+          "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16848292/2022/2/3/e105d206-5f55-45c6-a8f7-c06af95b48e81643864863725-Puma-Men-Black-Brand-Logo-Training-or-Gym-T-shirt-3461643864-2.jpg",
+        image3:
+          "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16848292/2022/2/3/048d1e12-ef69-4415-acdb-64b3163859161643864863716-Puma-Men-Black-Brand-Logo-Training-or-Gym-T-shirt-3461643864-3.jpg",
+        image4:
+          "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/16848292/2022/2/3/4145b614-6c89-4f39-bd8e-ee359c467c311643864863693-Puma-Men-Black-Brand-Logo-Training-or-Gym-T-shirt-3461643864-5.jpg",
+      },
+      rating: 5,
+      count: 2.6,
+    },
+    {
+      id: 115,
+      categories: "tshirt",
+      size: "Sizes : 39, 40, 42, 44...",
+      title: "Men Yellow Printed Cotton Pure Cotton T-shirt",
+      price: 314,
+      gender: "men",
+      description: "Men Yellow Printed Cotton Pure Cotton T-shirt",
+      brand: "HRX by Hrithik Roshan",
+      color: "yellow",
+      discount: 55,
+      off_price: 699,
+      images: {
+        image1:
+          "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1700944/2019/6/8/972c9498-3a37-4d5d-976c-4493b4d5c0021559989322793-HRX-by-Hrithik-Roshan-Men-Yellow-Printed-Round-Neck-T-Shirt--1.jpg",
+        image2:
+          "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1700944/2019/6/8/c3d336e4-8c86-4434-94b2-c9b28b6dd6471559989322777-HRX-by-Hrithik-Roshan-Men-Yellow-Printed-Round-Neck-T-Shirt--2.jpg",
+        image3:
+          "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1700944/2019/6/8/20153ade-f325-4613-a851-f79f8dc00c571559989322759-HRX-by-Hrithik-Roshan-Men-Yellow-Printed-Round-Neck-T-Shirt--3.jpg",
+        image4:
+          "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/1700944/2019/6/8/67f8fc06-3131-4ae9-a869-2b485f0aca3c1559989322742-HRX-by-Hrithik-Roshan-Men-Yellow-Printed-Round-Neck-T-Shirt--4.jpg",
+      },
+      rating: 4.5,
+      count: 41.5,
+    },
     {
       id: 103,
       categories: "tshirt",
@@ -232,35 +227,13 @@ let items = [
           count: 789,
         },
         {
-          id: 105,
-          title: 'Men Olive Green Solid Active Bomber Jacket',
-          price: 2399,
-          gender: 'men',
-          description: 'Lightweight jacket provides insulation and helps maintain body temperature in mild cold Breathable fabric helps sweat dry fast.',
-          Colour: 'green',
-    
-          categories: 'shirt',
-          brand: 'roadster',
-          color: 'Olive Green',
-          discount: 40,
-          off_price: 1600,
-          images: {
-            image1: 'https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/4453297/2019/12/2/77b5d9e0-8d65-4a36-94e7-290ed271db6b1575267599079-HRX-by-Hrithik-Roshan-Men-Olive-Green-Solid-Active-Bomber-Ja-1.jpg',
-            image2: 'https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/4453297/2019/12/2/fff8b47c-4590-4bf1-9dbd-b8cc23f0eef91575267599038-HRX-by-Hrithik-Roshan-Men-Olive-Green-Solid-Active-Bomber-Ja-2.jpg',
-            image3: 'https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/4453297/2019/12/2/f36c883f-a15d-4dfe-a738-703e75c05cae1575267598892-HRX-by-Hrithik-Roshan-Men-Olive-Green-Solid-Active-Bomber-Ja-5.jpg',
-            image4: 'https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/4453297/2019/12/2/e4423e58-eb11-4a71-8fb9-5adb67da52391575267598934-HRX-by-Hrithik-Roshan-Men-Olive-Green-Solid-Active-Bomber-Ja-4.jpg',
-          },
-          ratings: 4.3,
-          count: 78.9,
-        },
-        {
           id: 106,
           categories: 'kurta',
           size: 'Sizes : 39, 40, 42, 44...',
           title: 'Men Grey & Blue Self Design Kurta with Churidar & Nehru Jacket',
           price: 2199,
           gender: 'men',
-          description: '',
+          description: 'Men Grey & Blue Self Design Kurta with Churidar & Nehru Jacket',
           brand: 'Roadster',
           color: 'white',
           discount: 60,
@@ -274,7 +247,31 @@ let items = [
           rating: 5.9,
           count: 29.1,
         },
-  
+        {
+          id: 34,
+          categories: "tshirt",
+          size: "Sizes : 39, 40, 42, 44...",
+          title: "Men White Solid Round Neck Layered T-shirt",
+          price: 6299,
+          gender: "men",
+          description: "Men White Solid Round Neck Layered T-shirt",
+          brand: "Roadster",
+          color: "White",
+          discount: 20,
+          off_price: 8999,
+          images: {
+            image1:
+              "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2499322/2018/5/3/11525340280178-Roadster-Men-White-Solid-Round-Neck-T-shirt-4321525340280011-1.jpg",
+            image2:
+              "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2499322/2018/5/3/11525340280153-Roadster-Men-White-Solid-Round-Neck-T-shirt-4321525340280011-2.jpg",
+            image3:
+              "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2499322/2018/5/3/11525340280130-Roadster-Men-White-Solid-Round-Neck-T-shirt-4321525340280011-3.jpg",
+            image4:
+              "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2499322/2018/5/3/11525340280094-Roadster-Men-White-Solid-Round-Neck-T-shirt-4321525340280011-5.jpg",
+          },
+          rating: 4,
+          count: 2.4,
+        },
         {
           id: 107,
           categories: 'kurta',
@@ -282,7 +279,7 @@ let items = [
           title: 'Men Red & Green Striped Pure Cotton Kurta',
           price: 854,
           gender: 'men',
-          description: '',
+          description: 'Men Red & Green Striped Pure Cotton Kurta',
           brand: 'Roadster',
           color: 'red',
           discount: 55,
@@ -480,8 +477,8 @@ localStorage.setItem("similarData", JSON.stringify(items));
     function displaySimilarProducts(arr){
         arr.forEach(function(Item) {
           var img = document.createElement("img");
-          var brand = document.createElement("h5");
-          var description = document.createElement("h5");
+          var brand = document.createElement("h2");
+          var description = document.createElement("h4");
           var price = document.createElement("h5");
           var off_price = document.createElement("h5");
           var discount = document.createElement("h5");
@@ -500,6 +497,9 @@ localStorage.setItem("similarData", JSON.stringify(items));
           
           // style
           img.style.width="100%";
+          img.style.borderRadius="10px 10px 0 0";
+          btnWish.style.backgroundColor="pink";
+          btnWish.style.fontWeight="bold"
           showPrice.append(price ,off_price, discount);
         
           var div = document.createElement("div");

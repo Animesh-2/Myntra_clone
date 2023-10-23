@@ -913,13 +913,13 @@ var wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
 
 var total_item=document.getElementById("total-item")
 var total=mensData.length
-total_item.innerText=`${total} items`
+total_item.innerText=`${total} items` 
 
 function displayProducts(arr){
 arr.forEach(function(Item) {
   var img = document.createElement("img");
-  var brand = document.createElement("h5");
-  var description = document.createElement("h5");
+  var brand = document.createElement("h2");
+  var description = document.createElement("h4");
   var price = document.createElement("h5");
   var off_price = document.createElement("h5");
   var discount = document.createElement("h5");
@@ -938,6 +938,9 @@ arr.forEach(function(Item) {
   
   // style
   img.style.width="100%";
+  img.style.borderRadius="10px 10px 0 0";
+  btnWish.style.backgroundColor="pink";
+  btnWish.style.fontWeight="bold"
   showPrice.append(price ,off_price, discount);
 
   var div = document.createElement("div");
