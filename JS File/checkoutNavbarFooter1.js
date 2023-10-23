@@ -2,10 +2,10 @@ function navbar() {
     return ` <div class="header">
     <div class="logo">
       <img
-        src="https://cdn.freelogovectors.net/wp-content/uploads/2021/02/myntra-logo-freelogovectors.net_.png"
+        src="afaqs_2021-01_15f5f827-8e29-4520-af8d-a0f353b8da17_images.webp"
         alt="Myntra"
-        height="32px"
-        width="40px"
+        height="53px"
+        width="53px"
       />
     </div>
     <nav>

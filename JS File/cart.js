@@ -82,7 +82,7 @@ const displayData =(data) =>{
        </div>`
 
        div.append(imgDiv,descriptionDiv)
-
+        
        let undo = document.createElement("button");
        undo.setAttribute("id", "undo");
        undo.textContent = "X";
