@@ -1,12 +1,12 @@
 function navbar() {
     return ` <div class="header">
     <div class="logo">
-      <img
+      <a href="../index.html"><img
         src="afaqs_2021-01_15f5f827-8e29-4520-af8d-a0f353b8da17_images.webp"
         alt="Myntra"
         height="53px"
         width="53px"
-      />
+      /></a>
     </div>
     <nav>
       <ul>

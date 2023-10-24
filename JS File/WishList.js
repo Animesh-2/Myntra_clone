@@ -103,16 +103,16 @@
 // cartCountInfo.textContent = count.length
 
 
-import { navbar } from "../JS File/navbar.js";
+// import { navbar } from "../JS File/navbar.js";
 import { footer } from "../JS File/footer.js";
 
-let wishListHeader = document.getElementById("header");
-wishListHeader.innerHTML = navbar();
+// let wishListHeader = document.getElementById("header");
+// wishListHeader.innerHTML = navbar();
 
 let wishListFooter = document.getElementById("footerEl");
 wishListFooter.innerHTML = footer();
 
-let wishListData = JSON.parse(localStorage.getItem("WishList"));
+let wishListData = JSON.parse(localStorage.getItem("wishlist"));
 
 let wishlistCount = document.getElementById("wishlistCount");
 wishlistCount.innerHTML = `My Wishlist <span> ${wishListData.length} items <span>`;
@@ -169,7 +169,7 @@ const displayWishListProducts = (data) => {
     });
   });
 };
-displayWishListProducts(JSON.parse(localStorage.getItem("WishList")));
+displayWishListProducts(JSON.parse(localStorage.getItem("wishlist")));
 
 let cart = localStorage.getItem("cart");
 if (cart === null) {
@@ -178,12 +178,12 @@ if (cart === null) {
 
 const removeWishList = (id) => {
   // console.log(id)
-  let data = JSON.parse(localStorage.getItem("WishList"));
+  let data = JSON.parse(localStorage.getItem("wishlist"));
   const newData = data.filter((item) => item.id != id);
-  localStorage.setItem("WishList", JSON.stringify(newData));
+  localStorage.setItem("wishlist", JSON.stringify(newData));
   location.reload();
 };
-displayWishListProducts(JSON.parse(localStorage.getItem("WishList")));
+displayWishListProducts(JSON.parse(localStorage.getItem("wishlist")));
 
 function addToCart(data) {
   let cart = JSON.parse(localStorage.getItem("cart"));
@@ -191,9 +191,9 @@ function addToCart(data) {
     localStorage.setItem("cart", JSON.stringify(cart));
 
 
-    let wishListdata = JSON.parse(localStorage.getItem("WishList"));
+    let wishListdata = JSON.parse(localStorage.getItem("wishlist"));
     const newData = wishListdata.filter((item) => item.id != data.id);
-    localStorage.setItem("WishList", JSON.stringify(newData));
+    localStorage.setItem("wishlist", JSON.stringify(newData));
     location.reload();
  
   

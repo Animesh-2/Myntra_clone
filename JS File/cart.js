@@ -343,5 +343,5 @@ window.onclick = function(event) {
  })
 
  const  goToAddressPage =() => {
-    window.location.href = "../HTML/addressInput.html";
+    window.location.href = "../addressInput.html";
  }

@@ -910,10 +910,16 @@ var mensData = [
 localStorage.setItem("MenData", JSON.stringify(mensData));
 
 var wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
+var cart = JSON.parse(localStorage.getItem("cart")) || [];
 
 var total_item=document.getElementById("total-item")
 var total=mensData.length
 total_item.innerText=`${total} items` 
+
+var countCart= document.getElementById("cart-count-info");
+countCart.innerHTML=""
+var count=cart.length
+countCart.innerText=`${count}`
 
 function displayProducts(arr){
 arr.forEach(function(Item) {

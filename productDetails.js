@@ -365,6 +365,12 @@ let items = [
 
 let productDetailContainer = document.getElementById("productDetailContainer");
 var wishlist = JSON.parse(localStorage.getItem("wishlist")) || [];
+var cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+var countCart= document.getElementById("cart-count-info");
+countCart.innerHTML=""
+var count=cart.length
+countCart.innerText=`${count}`
 
 const displayData = () => {
   let product = JSON.parse(localStorage.getItem("details"));
