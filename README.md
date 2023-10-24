@@ -66,7 +66,7 @@ A Collaborative project built by a team of 5 executed in 6 days.
 
 **Payment Page**
 
-![Logo](Screenshot (94).png)
+![Screenshot (94).png](Screenshot (94).png)
 
 ## Contributors  😇
 
