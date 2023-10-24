@@ -1,308 +1,862 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PRODUCT PAGE (MENS)</title>
-    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
-    <link rel="stylesheet" href="product.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PRODUCT PAGE (MENS)</title>
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+  <link rel="stylesheet" href="product.css">
+  <link rel="stylesheet" href="./Style/navbar.css" />
 </head>
+
 <body>
-    <!-- navbar -->
-    <div id="navbar">
-      
-    </div>
-    <!-- center -->
-    <div id="mid">
-        <div id="top">
-          <br />
-            <div>Home / ClothingMen / <span style="font-weight: bold;"> T-Shirts</span></div>
-            <div>Men T-Shirts <span id="total-item" style="font-weight: bold;">- 64 items</span></div>
-        </div>
-        <br/>
-        <!-- Filters -->
-        <div id="filterSelectBoxes">
-          <div class="ProductSelectBy">
-            <div class="fl" style="font-weight: bold; font-size: x-large;">FILTERS</div>
-            <select name="sort" id="sortButtonRec">
-              <option value="">Sort by : Recommended</option>
-              <option value="whatsNew">Whats New</option>
-              <option value="popularity">Popularity</option>
-            </select>
-            <select name="sort" id="sortButtonPrice">
-                <option value="">Sort by: Price</option>
-                <option value="desc">Price : High to Low</option>
-                <option value="asc">Price : Low to High</option>
-            </select>
-            <select name="sort" id="sortButtonRating">
-                <option value="">Sort by : Rating/Discount</option>
-                <option value="rating">Customer Rating</option>
-                <option value="discount">Better Discount</option>
-            </select>
-          </div>
-        </div>
+  <!-- navbar -->
+  <div class="header">
+    <a style="margin-left: 27px;cursor:pointer;" href="index.html" class="logo"><img
+        src="afaqs_2021-01_15f5f827-8e29-4520-af8d-a0f353b8da17_images.webp" alt=""></a>
 
-        <hr/>
-
-        <!-- Side filters -->
-        <div id="ProductBlock">
-            <div id="ProductFilter">
-                <div id="brandFilter">
-                <span class="filterspan" style="font-weight: bold;">BRAND</span>
-                <ul id="filterButtonBrand">
-                  <li>
-                    <input type="checkbox" class="bandfiltered" id="Roadster" value="Roadster" name="Roadster"/>
-                    <span>Roadster</span>
-                  </li>
-                  <li>
-                    <input type="checkbox" class="bandfiltered" id="WROGN" value="WROGN" name="WROGN"/>
-                    <span> WROGN </span>
-                  </li>
-                  <li>
-                    <input type="checkbox" class="bandfiltered" id="HRX" value="HRX by Hrithik Roshan" name="HRX by Hrithik Roshan"/>
-                    <span> HRX by Hrithik Roshan </span>
-                  </li>
-                  <li>
-                    <input type="checkbox" class="bandfiltered" id="LouisPhilippeSport" value="Louis Philippe Sport" name="Louis Philippe Sport"/>
-                    <span> Louis Philippe Sport </span>
-                  </li>
-                  <li>
-                    <input type="checkbox" class="bandfiltered" id="Puma" value="Puma" name="Puma"/>
-                    <span> Puma </span>
-                  </li>
-                </ul>
-                <br />
-  
-                <span class="filterspan" style="font-weight: bold;">PRICE</span>
-                <ul id="filterButtonPrice">
-                  <li>
-                    <input type="checkbox" id="174-1881" value="174-1881" name="174-1881"/>
-                    <span> Rs. 174 to Rs. 1881 </span></li>
-                  <li>
-                    <input type="checkbox" id="1881-3588" value="1881-3588" name="1881-3588"/>
-                    <span> Rs. 1881 to Rs. 3588 </span>
-                  </li>
-                  <li>
-                    <input type="checkbox" id="3588-5295" value="3588-5295" name="3588-5295"/>
-                    <span> Rs. 3588 to Rs. 5295 </span>
-                  </li>
-                  <li>
-                    <input type="checkbox" id="5295-7002" value="5295-7002" name="5295-7002"/>
-                    <span> Rs. 5295 to Rs. 7002 </span>
-                  </li>
-                </ul>
-                <br />
-
-                <span class="filterspan" style="font-weight: bold;">DISCOUNT RANGE</span>
-                <ul id="filterButtonDiscount">
-                  <li>
-                    <input type="checkbox" id="10" value="10" name="10"/>
-                    <span> 10% and above </span>
-                  </li>
-                  <li>
-                    <input type="checkbox" id="20" value="20" name="20"/>
-                    <span> 20% and above </span>
-                  </li>
-                  <li>
-                    <input type="checkbox" id="30" value="30" name="30"/>
-                    <span> 30% and above </span>
-                  </li>
-                  <li>
-                    <input type="checkbox" id="40" value="40" name="40"/>
-                    <span> 40% and above </span>
-                  </li>
-                  <li>
-                    <input type="checkbox" id="50" value="50" name="50"/>
-                    <span> 50% and above </span>
-                  </li>
-                  <li>
-                    <input type="checkbox" id="60" value="60" name="60"/>
-                    <span> 60% and above </span>
-                  </li>
-                </ul>
+    <nav>
+      <ul class="menu-items">
+        <li>
+          <a href="mens.html" class="menu-item-1">MEN</a>
+          <div class="mega-menu">
+            <div class="content">
+              <div class="col">
+                <section>
+                  <h2 class="item-1-heading">Topwear</h2>
+                  <ul class="mega-links">
+                    <li><a href="mens.html">T-Shirts</a></li>
+                    <li><a href="mens.html">Casual Shirts</a></li>
+                    <li><a href="mens.html">Formal Shirts</a></li>
+                    <li><a href="mens.html">SweatShirts</a></li>
+                    <li><a href="mens.html">Sweaters</a></li>
+                    <li><a href="mens.html">Jackets</a></li>
+                    <li><a href="mens.html">Blazers & Coats</a></li>
+                    <li><a href="mens.html">Suits</a></li>
+                    <li><a href="mens.html">Rain Jackets</a></li>
+                  </ul>
+                  <h2 class="item-1-heading">Indian & Festive Wear</h2>
+                  <ul class="mega-links">
+                    <li><a href="mens.html">Kurtas & Kurta Sets</a></li>
+                    <li><a href="mens.html">Sherwanis</a></li>
+                    <li><a href="mens.html">Nehru Jackets</a></li>
+                    <li><a href="mens.html">SweatShirts</a></li>
+                    <li><a href="mens.html">Dhotis</a></li>
+                  </ul>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h2 class="item-1-heading">Bottomwear</h2>
+                  <ul class="mega-links">
+                    <li><a href="mens.html">Jeans</a></li>
+                    <li><a href="mens.html">Casual Trousers</a></li>
+                    <li><a href="mens.html">Formal Trousers</a></li>
+                    <li><a href="mens.html">Shorts</a></li>
+                    <li><a href="mens.html">Track pants & Joggers</a></li>
+                  </ul>
+                  <h2 class="item-1-heading">Innerwear & Sleepwear</h2>
+                  <ul class="mega-links">
+                    <li><a href="mens.html">Briefs & Trunks</a></li>
+                    <li><a href="mens.html">Boxers</a></li>
+                    <li><a href="mens.html">Vests</a></li>
+                    <li><a href="mens.html">Sleepwear & Loungewear</a></li>
+                    <li><a href="mens.html">Thermals</a></li>
+                  </ul>
+                  <h2 class="item-1-heading">Plus Size</h2>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h2 class="item-1-heading">Footwear</h2>
+                  <ul class="mega-links">
+                    <li><a href="mens.html">Casual Shoes</a></li>
+                    <li><a href="mens.html"> Sports Shoes</a></li>
+                    <li><a href="mens.html">Formal Shoes</a></li>
+                    <li><a href="mens.html">Sneakers</a></li>
+                    <li><a href="mens.html">Sandals & Floaters</a></li>
+                    <li><a href="mens.html">Flip Flops</a></li>
+                    <li><a href="mens.html">Socks</a></li>
+                  </ul>
+                  <h2 class="item-1-heading">Personal Care & Grooming</h2>
+                  <h2 class="item-1-heading">Sunglasses & Frames</h2>
+                  <h2 class="item-1-heading">Watches</h2>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h2 class="item-1-heading">Sports & Active Wear</h2>
+                  <ul class="mega-links">
+                    <li><a href="mens.html">Sports Shoes</a></li>
+                    <li><a href="mens.html">Sports Sandals</a></li>
+                    <li><a href="mens.html">Active T-Shirts</a></li>
+                    <li><a href="mens.html">Tracksuits</a></li>
+                    <li><a href="mens.html">Jackets & Sweatshirts</a></li>
+                    <li><a href="mens.html">Sports Accessories</a></li>
+                    <li><a href="mens.html">Swimwear</a></li>
+                  </ul>
+                  <h2 class="item-1-heading">Gadgets</h2>
+                  <ul class="mega-links">
+                    <li><a href="mens.html">Smart Wearables</a></li>
+                    <li><a href="mens.html">Fitness Gadgets</a></li>
+                    <li><a href="mens.html">Headphones</a></li>
+                    <li><a href="mens.html">Speakers</a></li>
+                  </ul>
+                </section>
               </div>
             </div>
-
-            <!-- Product Display -->
-            <div id="data">
-
+          </div>
+        </li>
+        <li>
+          <a href="index.html" class="menu-item-2">WOMEN</a>
+          <div class="mega-menu">
+            <div class="content">
+              <div class="col">
+                <section>
+                  <h2 class="item-2-heading">Indian & Fusion Wear</h2>
+                  <ul class="mega-links">
+                    <li><a href="mens.html">Kurtas & Suits</a></li>
+                    <li><a href="mens.html">Kurtis,Tunics & Tops</a></li>
+                    <li><a href="mens.html">Ethinc Wear</a></li>
+                    <li><a href="mens.html">Leggings,Salwars & Churidars</a></li>
+                    <li><a href="mens.html">Skirts & Palazzos</a></li>
+                    <li><a href="mens.html">Sarees</a></li>
+                    <li><a href="mens.html">Dress Materials</a></li>
+                    <li><a href="mens.html">Lehenga Cholis</a></li>
+                    <li><a href="mens.html">Dupatta & Shawls</a></li>
+                    <li><a href="mens.html">Jackets</a></li>
+                  </ul>
+                  <h2 class="item-2-heading">Belts, Scarves & More</h2>
+                  <h2 class="item-2-heading">Watches & Wearables</h2>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h2 class="item-2-heading">Wester Wear</h2>
+                  <ul class="mega-links">
+                    <li><a href="mens.html">Dresses</a></li>
+                    <li><a href="mens.html">Tops</a></li>
+                    <li><a href="mens.html">Tshirts</a></li>
+                    <li><a href="mens.html">Jeans</a></li>
+                    <li><a href="mens.html">Trousers & Capris</a></li>
+                    <li><a href="mens.html">Shorts & Skirts</a></li>
+                    <li><a href="mens.html">Co-ords</a></li>
+                    <li><a href="mens.html">Playsuits</a></li>
+                    <li><a href="mens.html">Jumpsuits</a></li>
+                    <li><a href="mens.html">Shrugs</a></li>
+                    <li><a href="mens.html">Sweaters & Sweatshirts</a></li>
+                    <li><a href="mens.html">Jaackets & Coats</a></li>
+                    <li><a href="mens.html">Blazers & Waistcoats</a></li>
+                  </ul>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h2 class="item-2-heading">Shop By Occasion</h2>
+                  <ul class="mega-links">
+                    <li><a href="mens.html">Office</a></li>
+                    <li><a href="mens.html">Casual Outing</a></li>
+                    <li><a href="mens.html">Wedding</a></li>
+                    <li><a href="mens.html">Party</a></li>
+                    <li><a href="mens.html">Workout</a></li>
+                    <li><a href="mens.html">Vacation</a></li>
+                    <li><a href="mens.html">At Home</a></li>
+                  </ul>
+                  <h2 class="item-2-heading">Plus Size</h2>
+                  <h2 class="item-2-heading">Maternity</h2>
+                  <h2 class="item-2-heading">Sunglasses & frames</h2>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h2 class="item-2-heading">Footwear</h2>
+                  <ul class="mega-links">
+                    <li><a href="mens.html">Flats</a></li>
+                    <li><a href="mens.html">Casual Shoes</a></li>
+                    <li><a href="mens.html">Heels</a></li>
+                    <li><a href="mens.html">Boots</a></li>
+                    <li><a href="mens.html">Sports Shoes & Floaters</a></li>
+                  </ul>
+                  <h2 class="item-2-heading">Sports & Active Wear</h2>
+                  <ul class="mega-links">
+                    <li><a href="mens.html">Cloathing</a></li>
+                    <li><a href="mens.html">Footwear</a></li>
+                    <li><a href="mens.html">Sports Accessories</a></li>
+                    <li><a href="mens.html">Sports Equipment</a></li>
+                  </ul>
+                </section>
+              </div>
             </div>
-        </div>
+          </div>
+        </li>
+        <li>
+          <a href="index.html" class="menu-item-3">KIDS</a>
+          <div class="mega-menu">
+            <div class="content">
+              <div class="col">
+                <section>
+                  <h2 class="item-3-heading">Boys Clothing</h2>
+                  <ul class="mega-links">
+                    <li><a href="mens.html">T-Shirts</a></li>
+                    <li><a href="mens.html">Shirts</a></li>
+                    <li><a href="mens.html">Shorts</a></li>
+                    <li><a href="mens.html">Jeans</a></li>
+                    <li><a href="mens.html">Trousers</a></li>
+                    <li><a href="mens.html">Clothing Sets</a></li>
+                    <li><a href="mens.html">Ethinic Wear</a></li>
+                    <li><a href="mens.html">Track Pants & Pyjamas</a></li>
+                    <li><a href="mens.html">Jacket,Sweater & Sweatshirts</a></li>
+                    <li><a href="mens.html">Party Wear</a></li>
+                    <li><a href="mens.html">Innerwear & Thermals</a></li>
+                    <li><a href="mens.html">Nightwear & Loungewear</a></li>
+                    <li><a href="mens.html">Value Packs</a></li>
+                  </ul>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h2 class="item-3-heading">Girls Clothing</h2>
+                  <ul class="mega-links">
+                    <li><a href="mens.html">Dresses</a></li>
+                    <li><a href="mens.html">Tops</a></li>
+                    <li><a href="mens.html">Tshirts</a></li>
+                    <li><a href="mens.html">Clothing Sets</a></li>
+                    <li><a href="mens.html">Lehenga Choli</a></li>
+                    <li><a href="mens.html">Kurta Sets</a></li>
+                    <li><a href="mens.html">Party wear</a></li>
+                    <li><a href="mens.html">Dungarees & Jumpsuits</a></li>
+                    <li><a href="mens.html">Skirts & shorts</a></li>
+                    <li><a href="mens.html">Tights & Leggings</a></li>
+                    <li><a href="mens.html">Jeans, Trousers & Capris</a></li>
+                    <li><a href="mens.html">Innerwear & Thermals</a></li>
+                    <li><a href="mens.html">Nightwear & Loungewear</a></li>
+                    <li><a href="mens.html">Value Packs</a></li>
+                  </ul>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h2 class="item-3-heading">Footwear</h2>
+                  <ul class="mega-links">
+                    <li><a href="mens.html">Casual Shoes</a></li>
+                    <li><a href="mens.html"> Flipflops</a></li>
+                    <li><a href="mens.html">Sports Shoes</a></li>
+                    <li><a href="mens.html">Flats</a></li>
+                    <li><a href="mens.html">sandals</a></li>
+                    <li><a href="mens.html">Heels</a></li>
+                    <li><a href="mens.html">Socks</a></li>
+                  </ul>
+                  <h2 class="item-3-heading">Toys</h2>
+                  <ul class="mega-links">
+                    <li><a href="mens.html">Learning & Development</a></li>
+                    <li><a href="mens.html"> Activity Toys</a></li>
+                    <li><a href="mens.html">Soft Toys</a></li>
+                    <li><a href="mens.html">Action Figure / Play set</a></li>
+                  </ul>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h2 class="item-3-heading">Infants</h2>
+                  <ul class="mega-links">
+                    <li><a href="mens.html">Bodysuits</a></li>
+                    <li><a href="mens.html">Rompers & sleepsuits</a></li>
+                    <li><a href="mens.html">Clothing Sets</a></li>
+                    <li><a href="mens.html">Tshirts & Tops</a></li>
+                    <li><a href="mens.html">Dresses</a></li>
+                    <li><a href="mens.html">Bottom Wear</a></li>
+                    <li><a href="mens.html">Winter Wear</a></li>
+                    <li><a href="mens.html">Innerwear & Sleepwear</a></li>
+                    <li><a href="mens.html">Infant Care</a></li>
+                  </ul>
+                  <h2 class="item-3-heading">Home & Bath</h2>
+                  <h2 class="item-3-heading">Personal Care</h2>
+                </section>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="index.html" class="menu-item-4">HOME</a>
+          <div class="mega-menu">
+            <div class="content4">
+              <div class="col">
+                <section>
+                  <h2 class="item-4-heading">Bed Linen & Furnishing</h2>
+                  <ul class="mega-links">
+                    <li><a href="mens.html">Bedsheets</a></li>
+                    <li><a href="mens.html">Bedding Sets</a></li>
+                    <li><a href="mens.html">Blankets,Quilts & Dohars</a></li>
+                    <li><a href="mens.html">Pillows & Pillow Covers</a></li>
+                    <li><a href="mens.html">Bed Covers</a></li>
+                    <li><a href="mens.html">Diwan Sets</a></li>
+                    <li><a href="mens.html">Chair Pads & Covers</a></li>
+                    <li><a href="mens.html">Sofa Covers</a></li>
+                  </ul>
+                  <h2 class="item-4-heading">Flooring</h2>
+                  <ul class="mega-links">
+                    <li><a href="mens.html">Carpets</a></li>
+                    <li><a href="mens.html">Floor Mats & Dhurries</a></li>
+                    <li><a href="mens.html">Door Mats</a></li>
+                  </ul>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h2 class="item-4-heading">Bath</h2>
+                  <ul class="mega-links">
+                    <li><a href="mens.html">Bath Towels</a></li>
+                    <li><a href="mens.html">Hand & Face Towels</a></li>
+                    <li><a href="mens.html">Beach Towels</a></li>
+                    <li><a href="mens.html">Towels Set</a></li>
+                    <li><a href="mens.html">Bath Rugs</a></li>
+                    <li><a href="mens.html">Bath Robes</a></li>
+                    <li><a href="mens.html">Bathroom Accessories</a></li>
+                    <li><a href="mens.html">Shower Curtains</a></li>
+                  </ul>
+                  <h2 class="item-4-heading">Lamps & Lighting</h2>
+                  <ul class="mega-links">
+                    <li><a href="mens.html">Floor Lamps</a></li>
+                    <li><a href="mens.html">Ceiling Lamps</a></li>
+                    <li><a href="mens.html">Table Lamps</a></li>
+                    <li><a href="mens.html">Wall Lamps</a></li>
+                    <li><a href="mens.html">Outdoor Lamps</a></li>
+                    <li><a href="mens.html">String Lights</a></li>
+                  </ul>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h2 class="item-4-heading">Home Decor</h2>
+                  <ul class="mega-links">
+                    <li><a href="mens.html">Plants & Planters</a></li>
+                    <li><a href="mens.html"> Aromas & Candles</a></li>
+                    <li><a href="mens.html">Clocks</a></li>
+                    <li><a href="mens.html">Mirrors</a></li>
+                    <li><a href="mens.html">Wall Decor</a></li>
+                    <li><a href="mens.html">Festive Decor</a></li>
+                    <li><a href="mens.html">Pooja Essentials</a></li>
+                    <li><a href="mens.html">Wall Shelves</a></li>
+                    <li><a href="mens.html">Fountains</a></li>
+                    <li><a href="mens.html">Showpiece & Vases</a></li>
+                  </ul>
+                  <h2 class="item-4-heading">Cushions & Cushion Covers</h2>
+                  <h2 class="item-4-heading">Curtains</h2>
+                  <h2 class="item-4-heading">Home Gift Sets</h2>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h2 class="item-4-heading">Kitchen & Table</h2>
+                  <ul class="mega-links">
+                    <li><a href="mens.html">Dinnerware & Serveware</a></li>
+                    <li><a href="mens.html">Cups and Mugs</a></li>
+                    <li><a href="mens.html">Bakeware & Cookware</a></li>
+                    <li><a href="mens.html">Kitchen Storage & Tools</a></li>
+                    <li><a href="mens.html">Bar & Drinkware</a></li>
+                    <li><a href="mens.html">Table Covers & Furnishings</a></li>
+                  </ul>
+                  <h2 class="item-4-heading">Storage</h2>
+                  <ul class="mega-links">
+                    <li><a href="#">Oraganisers</a></li>
+                    <li><a href="#">Hooks & Holders</a></li>
+                    <li><a href="#">Laundry Bags</a></li>
+                  </ul>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h2 class="item-4-heading">Brands</h2>
+                  <ul class="mega-links">
+                    <li><a href="#">Home Centre</a></li>
+                    <li><a href="#">Spaces</a></li>
+                    <li><a href="#">D'Decor</a></li>
+                    <li><a href="#">Portico NewYork</a></li>
+                    <li><a href="#">Story@Home</a></li>
+                    <li><a href="#">Pure Home & Living</a></li>
+                    <li><a href="#">Swayam</a></li>
+                    <li><a href="#">Raymond Home</a></li>
+                    <li><a href="#">Maspar</a></li>
+                    <li><a href="#">Corelle</a></li>
+                    <li><a href="#">Trident</a></li>
+                    <li><a href="#">Cortina</a></li>
+                    <li><a href="#">Random</a></li>
+                    <li><a href="#">Ellementry</a></li>
+                    <li><a href="#">ROMEE</a></li>
+                    <li><a href="#">SEJ by Nisha Gupta</a></li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="menu-item-5">BEAUTY</a>
+          <div class="mega-menu">
+            <div class="content4">
+              <div class="col">
+                <section>
+                  <h2 class="item-5-heading">Makeup</h2>
+                  <ul class="mega-links">
+                    <li><a href="#">Lipstick</a></li>
+                    <li><a href="#">Lip Gloss</a></li>
+                    <li><a href="#">Lip Liner</a></li>
+                    <li><a href="#">Mascara</a></li>
+                    <li><a href="#">Eyeliner</a></li>
+                    <li><a href="#">Kajal</a></li>
+                    <li><a href="#">Eyeshadow</a></li>
+                    <li><a href="#">Foundation</a></li>
+                    <li><a href="#">Primer</a></li>
+                    <li><a href="#">Concealer</a></li>
+                    <li><a href="#">Compact</a></li>
+                    <li><a href="#">Nail Polish</a></li>
+                  </ul>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h2 class="item-5-heading">Skincare, Bath & Body</h2>
+                  <ul class="mega-links">
+                    <li><a href="#">Face Moisturiser</a></li>
+                    <li><a href="#">Cleanser</a></li>
+                    <li><a href="#">Masks & Peel</a></li>
+                    <li><a href="#">Sunscreen</a></li>
+                    <li><a href="#">Serum</a></li>
+                    <li><a href="#">Face Wash</a></li>
+                    <li><a href="#">Lip Balm</a></li>
+                    <li><a href="#">Body Lotion</a></li>
+                    <li><a href="#">Body Wash</a></li>
+                    <li><a href="#">Body Scrub</a></li>
+                    <li><a href="#">Hand Cream</a></li>
+                  </ul>
+                  <h2 class="item-5-heading">Baby Care</h2>
+                  <h2 class="item-5-heading">Masks</h2>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h2 class="item-5-heading">Hair Carer</h2>
+                  <ul class="mega-links">
+                    <li><a href="#">Shampoo</a></li>
+                    <li><a href="#">Conditoner</a></li>
+                    <li><a href="#">Hair Cream</a></li>
+                    <li><a href="#">Hair Oil</a></li>
+                    <li><a href="#">Hair Gel</a></li>
+                    <li><a href="#">Hair Color</a></li>
+                    <li><a href="#">Hair Serum</a></li>
+                    <li><a href="#">Hair Accessory</a></li>
+                  </ul>
+                  <h2 class="item-5-heading">Fragrances</h2>
+                  <ul class="mega-links">
+                    <li><a href="#">Perfume</a></li>
+                    <li><a href="#">Deodrant</a></li>
+                    <li><a href="#">Body Mist</a></li>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h2 class="item-5-heading">Appliances</h2>
+                  <ul class="mega-links">
+                    <li><a href="#">Hair Straightner</a></li>
+                    <li><a href="#">Hair Dryer</a></li>
+                    <li><a href="#">Epilator</a></li>
+                  </ul>
+                  <h2 class="item-5-heading">Men's Grooming</h2>
+                  <ul class="mega-links">
+                    <li><a href="#">Trimmers</a></li>
+                    <li><a href="#">Beard Oil</a></li>
+                    <li><a href="#">Hair Wax</a></li>
+                  </ul>
+                  <h2 class="item-5-heading">Beauty Gift & Makeup Set</h2>
+                  <ul class="mega-links">
+                    <li><a href="#">Beauty Gift</a></li>
+                    <li><a href="#">Makeup Kit</a></li>
+                  </ul>
+                  <h2 class="item-5-heading">Premium Beauty</h2>
+                  <h2 class="item-5-heading">Wellness & Hygiene</h2>
+                </section>
+              </div>
+              <div class="col">
+                <section>
+                  <h2 class="item-5-heading">Brands</h2>
+                  <ul class="mega-links">
+                    <li><a href="#">Lakme</a></li>
+                    <li><a href="#">Maybelline</a></li>
+                    <li><a href="#">LOreal</a></li>
+                    <li><a href="#">Philips</a></li>
+                    <li><a href="#">Bath & Body Works</a></li>
+                    <li><a href="#">THE BODY SHOP</a></li>
+                    <li><a href="#">Biotique</a></li>
+                    <li><a href="#">Mamaearth</a></li>
+                    <li><a href="#">MCaffeine</a></li>
+                    <li><a href="#">Nivea</a></li>
+                    <li><a href="#">Lotus Herbals</a></li>
+                    <li><a href="#">LOreal Professionnel</a></li>
+                    <li><a href="#">KAMA AYURVEDA</a></li>
+                    <li><a href="#">M.A.C</a></li>
+                    <li><a href="#">Forest Essentials</a></li>
+                  </ul>
+                </section>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li>
+          <a href="#" class="menu-item-6">STUDIO<Span class="sup-part">NEW</Span></a>
+          <div class="mega-menu">
+            <div class="content-6">
+              <div class="col">
+                <section>
+                  <img class="image-1" src="https://constant.myntassets.com/web/assets/img/studio-logo-new.svg" alt="">
+                  <p>Your daily insipiration for everything fashion </p>
+                  <img class="image-2" src="https://constant.myntassets.com/web/assets/img/sudio-nav-banner.png" alt="">
+                  <img src="./IMAGES/Nav-Bar/Item-6 Button.jpg" alt="" class="image-3">
+                </section>
+              </div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <div id="search-div">
+      <img id="searchpng" src="https://cdn-icons-png.flaticon.com/128/482/482631.png" alt="">
+
+      <input type="text" placeholder="Search for products, brands and more" />
     </div>
+
+    <div class="nav-last">
+      <div>
+        <a href="">
+          <img id="svg" src="https://www.svgrepo.com/show/198180/user-profile.svg" alt="" />
+        </a>
+
+        <div class="dropdown">
+          <button class="dropbtn">Profile</button>
+          <div class="dropdown-content">
+            <h3>Welcome</h3>
+            <p>To access account and mange orders</p>
+            <button class="btn-redirect"> <a href="signup.html" class="login-btn">LOGIN / SIGNUP</a> </button>
+            <hr class="hr1">
+            <a href="./HTML/cart.html">Orders</a>
+            <a href="./HTML/WishList.html">Wishlist</a>
+            <a href="#">Gift Cards</a>
+            <a href="#">Contact Us</a>
+            <a href="#">Myntra Insider <span class="new">New</span></a>
+            <hr class="hr2">
+            <a href="#">Myntra Credit</a>
+            <a href="#">Coupons</a>
+            <a href="#">Saved Cards</a>
+            <a href="#">Saved Addresses</a>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <a href="./HTML File/WishList.html">
+          <img id="svg" src="https://www.svgrepo.com/show/14970/heart.svg" alt="" />
+        </a>
+
+        <div>Wishlist</div>
+      </div>
+
+      <div>
+        <a href="./HTML File/cart.html">
+          <img id="svg" src="https://www.svgrepo.com/show/17522/bag.svg" alt="" />
+        </a>
+
+        <div>Bag</div>
+        <span id="cart-count-info">0</span>
+      </div>
+
+    </div>
+  </div>
+  <!-- center -->
+  <div id="mid">
+    <div id="top">
+      <br />
+      <div>Home / ClothingMen / <span style="font-weight: bold;"> T-Shirts</span></div>
+      <div>Men T-Shirts <span id="total-item" style="font-weight: bold;">- 64 items</span></div>
+    </div>
+    <br />
+    <!-- Filters -->
+    <div id="filterSelectBoxes">
+      <div class="ProductSelectBy">
+        <div class="fl" style="font-weight: bold; font-size: x-large;">FILTERS</div>
+        <select name="sort" id="sortButtonRec">
+          <option value="">Sort by : Recommended</option>
+          <option value="whatsNew">Whats New</option>
+          <option value="popularity">Popularity</option>
+        </select>
+        <select name="sort" id="sortButtonPrice">
+          <option value="">Sort by: Price</option>
+          <option value="desc">Price : High to Low</option>
+          <option value="asc">Price : Low to High</option>
+        </select>
+        <select name="sort" id="sortButtonRating">
+          <option value="">Sort by : Rating/Discount</option>
+          <option value="rating">Customer Rating</option>
+          <option value="discount">Better Discount</option>
+        </select>
+      </div>
+    </div>
+
     <hr />
-    <!-- footer -->
-    <div id="footerBlock">
-      <div class="container-1">
-        <div class="item-1">
-          <h3>ONLINE SHOPPING</h3>
-          <ul>
-            <li><a href="">Men</a></li>
-            <li><a href="">Women</a></li>
-            <li><a href="">Kids</a></li>
-            <li><a href="">Home & Living</a></li>
-            <li><a href="">Beauty</a></li>
-            <li><a href="">Gift Cards</a></li>
+
+    <!-- Side filters -->
+    <div id="ProductBlock">
+      <div id="ProductFilter">
+        <div id="brandFilter">
+          <span class="filterspan" style="font-weight: bold;">BRAND</span>
+          <ul id="filterButtonBrand">
             <li>
-              <a href="">Myntra Insider <span class="new">New</span></a>
+              <input type="checkbox" class="bandfiltered" id="Roadster" value="Roadster" name="Roadster" />
+              <span>Roadster</span>
+            </li>
+            <li>
+              <input type="checkbox" class="bandfiltered" id="WROGN" value="WROGN" name="WROGN" />
+              <span> WROGN </span>
+            </li>
+            <li>
+              <input type="checkbox" class="bandfiltered" id="HRX" value="HRX by Hrithik Roshan"
+                name="HRX by Hrithik Roshan" />
+              <span> HRX by Hrithik Roshan </span>
+            </li>
+            <li>
+              <input type="checkbox" class="bandfiltered" id="LouisPhilippeSport" value="Louis Philippe Sport"
+                name="Louis Philippe Sport" />
+              <span> Louis Philippe Sport </span>
+            </li>
+            <li>
+              <input type="checkbox" class="bandfiltered" id="Puma" value="Puma" name="Puma" />
+              <span> Puma </span>
+            </li>
+          </ul>
+          <br />
+
+          <span class="filterspan" style="font-weight: bold;">PRICE</span>
+          <ul id="filterButtonPrice">
+            <li>
+              <input type="checkbox" id="174-1881" value="174-1881" name="174-1881" />
+              <span> Rs. 174 to Rs. 1881 </span>
+            </li>
+            <li>
+              <input type="checkbox" id="1881-3588" value="1881-3588" name="1881-3588" />
+              <span> Rs. 1881 to Rs. 3588 </span>
+            </li>
+            <li>
+              <input type="checkbox" id="3588-5295" value="3588-5295" name="3588-5295" />
+              <span> Rs. 3588 to Rs. 5295 </span>
+            </li>
+            <li>
+              <input type="checkbox" id="5295-7002" value="5295-7002" name="5295-7002" />
+              <span> Rs. 5295 to Rs. 7002 </span>
+            </li>
+          </ul>
+          <br />
+
+          <span class="filterspan" style="font-weight: bold;">DISCOUNT RANGE</span>
+          <ul id="filterButtonDiscount">
+            <li>
+              <input type="checkbox" id="10" value="10" name="10" />
+              <span> 10% and above </span>
+            </li>
+            <li>
+              <input type="checkbox" id="20" value="20" name="20" />
+              <span> 20% and above </span>
+            </li>
+            <li>
+              <input type="checkbox" id="30" value="30" name="30" />
+              <span> 30% and above </span>
+            </li>
+            <li>
+              <input type="checkbox" id="40" value="40" name="40" />
+              <span> 40% and above </span>
+            </li>
+            <li>
+              <input type="checkbox" id="50" value="50" name="50" />
+              <span> 50% and above </span>
+            </li>
+            <li>
+              <input type="checkbox" id="60" value="60" name="60" />
+              <span> 60% and above </span>
             </li>
           </ul>
         </div>
-        <div class="item-2">
-          <h3>USEFUL LINKS</h3>
-          <ul>
-            <li><a href="">Contact Us</a></li>
-            <li><a href="">FAQ</a></li>
-            <li><a href="">T&C</a></li>
-            <li><a href="">Terms of Use</a></li>
-            <li><a href="">Track Orders</a></li>
-            <li><a href="">Shipping</a></li>
-            <li><a href="">Cancellation </a></li>
-            <li><a href="">Returns</a></li>
-            <li><a href="">Whitehat</a></li>
-            <li><a href="">Blog</a></li>
-            <li><a href="">Carrers</a></li>
-            <li><a href="">Privacy Policy </a></li>
-            <li><a href="">Site Map</a></li>
-          </ul>
+      </div>
+
+      <!-- Product Display -->
+      <div id="data">
+
+      </div>
+    </div>
+  </div>
+  <hr />
+  <!-- footer -->
+  <div id="footerBlock">
+    <div class="container-1">
+      <div class="item-1">
+        <h3>ONLINE SHOPPING</h3>
+        <ul>
+          <li><a href="">Men</a></li>
+          <li><a href="">Women</a></li>
+          <li><a href="">Kids</a></li>
+          <li><a href="">Home & Living</a></li>
+          <li><a href="">Beauty</a></li>
+          <li><a href="">Gift Cards</a></li>
+          <li>
+            <a href="">Myntra Insider <span class="new">New</span></a>
+          </li>
+        </ul>
+      </div>
+      <div class="item-2">
+        <h3>USEFUL LINKS</h3>
+        <ul>
+          <li><a href="">Contact Us</a></li>
+          <li><a href="">FAQ</a></li>
+          <li><a href="">T&C</a></li>
+          <li><a href="">Terms of Use</a></li>
+          <li><a href="">Track Orders</a></li>
+          <li><a href="">Shipping</a></li>
+          <li><a href="">Cancellation </a></li>
+          <li><a href="">Returns</a></li>
+          <li><a href="">Whitehat</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Carrers</a></li>
+          <li><a href="">Privacy Policy </a></li>
+          <li><a href="">Site Map</a></li>
+        </ul>
+      </div>
+      <div class="item-3">
+        <h3>EXPERIENCE MYNTRA APP ON MOBILE</h3>
+        <div class="footer-image-1">
+          <img
+            src="https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png"
+            alt="" />
+          <img
+            src="https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png"
+            alt="" />
         </div>
-        <div class="item-3">
-          <h3>EXPERIENCE MYNTRA APP ON MOBILE</h3>
-          <div class="footer-image-1">
-            <img
-              src="https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png"
-              alt=""
-            />
-            <img
-              src="https://constant.myntassets.com/web/assets/img/80cc455a-92d2-4b5c-a038-7da0d92af33f1539674178924-google_play.png"
-              alt=""
-            />
-          </div>
-          <h3 class="item-3-title">KEEP IN TOUCH</h3>
-          <div class="footer-icons">
-            <img
-              src="https://constant.myntassets.com/web/assets/img/d2bec182-bef5-4fab-ade0-034d21ec82e31574604275433-fb.png"
-              alt=""
-            />
-            <img
-              src="https://constant.myntassets.com/web/assets/img/f10bc513-c5a4-490c-9a9c-eb7a3cc8252b1574604275383-twitter.png"
-              alt=""
-            />
-            <img
-              src="https://constant.myntassets.com/web/assets/img/a7e3c86e-566a-44a6-a733-179389dd87111574604275355-yt.png"
-              alt=""
-            />
-            <img
-              src="https://constant.myntassets.com/web/assets/img/b4fcca19-5fc1-4199-93ca-4cae3210ef7f1574604275408-insta.png"
-              alt=""
-            />
-          </div>
-        </div>
-        <div class="item-4">
-          <div class="item-4-title-1">
-            <img
-              src="https://constant.myntassets.com/web/assets/img/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png"
-              alt=""
-            />
-            <h3>100% ORIGINAL</h3>
-            <p>guarantee</p>
-            <p class="span-title">for all products at myntra.com</p>
-          </div>
-          <div class="item-4-title-2">
-            <img
-              loading="lazy"
-              src="https://constant.myntassets.com/web/assets/img/ef05d6ec-950a-4d01-bbfa-e8e5af80ffe31574602902427-30days.png"
-              alt=""
-            />
-            <h3>Return within 30days</h3>
-            <p>of</p>
-            <p class="span-title">receiving your order</p>
-          </div>
+        <h3 class="item-3-title">KEEP IN TOUCH</h3>
+        <div class="footer-icons">
+          <img
+            src="https://constant.myntassets.com/web/assets/img/d2bec182-bef5-4fab-ade0-034d21ec82e31574604275433-fb.png"
+            alt="" />
+          <img
+            src="https://constant.myntassets.com/web/assets/img/f10bc513-c5a4-490c-9a9c-eb7a3cc8252b1574604275383-twitter.png"
+            alt="" />
+          <img
+            src="https://constant.myntassets.com/web/assets/img/a7e3c86e-566a-44a6-a733-179389dd87111574604275355-yt.png"
+            alt="" />
+          <img
+            src="https://constant.myntassets.com/web/assets/img/b4fcca19-5fc1-4199-93ca-4cae3210ef7f1574604275408-insta.png"
+            alt="" />
         </div>
       </div>
-      <div class="container-2">
-        <div class="item-1">
-          <h3>POPULAR SEARCHES</h3>
-          <span class="item-1-hr"></span>
+      <div class="item-4">
+        <div class="item-4-title-1">
+          <img
+            src="https://constant.myntassets.com/web/assets/img/6c3306ca-1efa-4a27-8769-3b69d16948741574602902452-original.png"
+            alt="" />
+          <h3>100% ORIGINAL</h3>
+          <p>guarantee</p>
+          <p class="span-title">for all products at myntra.com</p>
         </div>
-        <div class="item-2">
-          <span class="item-2-link">Makeup</span>
-          <span class="item-2-link">Dresses For Girls</span>
-          <span class="item-2-link">T-Shirts</span>
-          <span class="item-2-link">Sandals</span>
-          <span class="item-2-link">Headphones</span>
-          <span class="item-2-link">Babydolls</span>
-          <span class="item-2-link">Blazers for Men</span>
-          <span class="item-2-link">Ladies Watches</span>
-          <span class="item-2-link">Bags</span>
-          <span class="item-2-link">Sport Shoes</span>
-          <span class="item-2-link">Reebok Shoes</span>
-          <span class="item-2-link">Puma Shoes</span>
-          <span class="item-2-link">Boxers</span>
-          <span class="item-2-link">Wallets</span>
-          <span class="item-2-link">Tops</span>
-          <span class="item-2-link">Earrings</span>
-          <span class="item-2-link">Fastrack Watches</span>
-          <span class="item-2-link">Kurtis</span>
-          <span class="item-2-link">Nike</span>
-          <span class="item-2-link">Smart Watches</span>
-          <span class="item-2-link">Titan Watches</span>
-          <span class="item-2-link">Designer Blouse</span>
-          <span class="item-2-link">Gowns</span>
-          <span class="item-2-link">Rings</span>
-          <span class="item-2-link">Cricket</span>
-          <span class="item-2-link">Shoes</span>
-          <span class="item-2-link">Forever 21</span>
-          <span class="item-2-link">Eye makeup</span>
-          <span class="item-2-link">Photo Frames</span>
-          <span class="item-2-link">Punjabi Suits</span>
-          <span class="item-2-link">Bikini</span>
-          <span class="item-2-link">Myntra Fashion Show</span>
-          <span class="item-2-link">Lipstik</span>
-          <span class="item-2-link">Saree</span>
-          <span class="item-2-link">Watches</span>
-          <span class="item-2-link">Lehenga</span>
-          <span class="item-2-link">Nike Shoes</span>
-          <span class="item-2-link">Googles</span>
-          <span class="item-2-link">Bras</span>
-          <span class="item-2-link">Suit</span>
-          <span class="item-2-link">Chinos</span>
-          <span class="item-2-link">Shoes</span>
-          <span class="item-2-link">Adidas Shoes</span>
-          <span class="item-2-link">Woodland Shoes</span>
-          <span class="item-2-link">Jewellery</span>
-          <span class="item-2-link">Designers Sarees</span>
-        </div>
-        <div class="item-3">
-          <div class="item-3-title-1">
-            <p>In case of any concern,</p>
-            <span class="contact">Contact us</span>
-          </div>
-          <div class="item-3-title-2">
-            <p>© 2022 www.myntra.com. All rights reserved.</p>
-          </div>
-        </div>
-        <span class="item-4-hr"></span>
-      </div>
-      <div class="container-3">
-        <div class="item-1">
-          <h3>Registered Office Address</h3>
-          <ul>
-            <li>Buildings Alyssa,</li>
-            <li>Begonia and Clover situated in Embassy Tech Village,</li>
-            <li>Outer Ring Road,</li>
-            <li>Devarabeesanahalli Village,</li>
-            <li>Varthur Hobli,</li>
-            <li>Bengaluru - 560103, India</li>
-          </ul>
-        </div>
-        <div class="item-2">
-          <p>CIN: U72300KA2007PTC041799</p>
-          <span>Telephone:</span>
-          <span class="contact-no">+91-80-61561999</span>
+        <div class="item-4-title-2">
+          <img loading="lazy"
+            src="https://constant.myntassets.com/web/assets/img/ef05d6ec-950a-4d01-bbfa-e8e5af80ffe31574602902427-30days.png"
+            alt="" />
+          <h3>Return within 30days</h3>
+          <p>of</p>
+          <p class="span-title">receiving your order</p>
         </div>
       </div>
     </div>
+    <div class="container-2">
+      <div class="item-1">
+        <h3>POPULAR SEARCHES</h3>
+        <span class="item-1-hr"></span>
+      </div>
+      <div class="item-2">
+        <span class="item-2-link">Makeup</span>
+        <span class="item-2-link">Dresses For Girls</span>
+        <span class="item-2-link">T-Shirts</span>
+        <span class="item-2-link">Sandals</span>
+        <span class="item-2-link">Headphones</span>
+        <span class="item-2-link">Babydolls</span>
+        <span class="item-2-link">Blazers for Men</span>
+        <span class="item-2-link">Ladies Watches</span>
+        <span class="item-2-link">Bags</span>
+        <span class="item-2-link">Sport Shoes</span>
+        <span class="item-2-link">Reebok Shoes</span>
+        <span class="item-2-link">Puma Shoes</span>
+        <span class="item-2-link">Boxers</span>
+        <span class="item-2-link">Wallets</span>
+        <span class="item-2-link">Tops</span>
+        <span class="item-2-link">Earrings</span>
+        <span class="item-2-link">Fastrack Watches</span>
+        <span class="item-2-link">Kurtis</span>
+        <span class="item-2-link">Nike</span>
+        <span class="item-2-link">Smart Watches</span>
+        <span class="item-2-link">Titan Watches</span>
+        <span class="item-2-link">Designer Blouse</span>
+        <span class="item-2-link">Gowns</span>
+        <span class="item-2-link">Rings</span>
+        <span class="item-2-link">Cricket</span>
+        <span class="item-2-link">Shoes</span>
+        <span class="item-2-link">Forever 21</span>
+        <span class="item-2-link">Eye makeup</span>
+        <span class="item-2-link">Photo Frames</span>
+        <span class="item-2-link">Punjabi Suits</span>
+        <span class="item-2-link">Bikini</span>
+        <span class="item-2-link">Myntra Fashion Show</span>
+        <span class="item-2-link">Lipstik</span>
+        <span class="item-2-link">Saree</span>
+        <span class="item-2-link">Watches</span>
+        <span class="item-2-link">Lehenga</span>
+        <span class="item-2-link">Nike Shoes</span>
+        <span class="item-2-link">Googles</span>
+        <span class="item-2-link">Bras</span>
+        <span class="item-2-link">Suit</span>
+        <span class="item-2-link">Chinos</span>
+        <span class="item-2-link">Shoes</span>
+        <span class="item-2-link">Adidas Shoes</span>
+        <span class="item-2-link">Woodland Shoes</span>
+        <span class="item-2-link">Jewellery</span>
+        <span class="item-2-link">Designers Sarees</span>
+      </div>
+      <div class="item-3">
+        <div class="item-3-title-1">
+          <p>In case of any concern,</p>
+          <span class="contact">Contact us</span>
+        </div>
+        <div class="item-3-title-2">
+          <p>© 2022 www.myntra.com. All rights reserved.</p>
+        </div>
+      </div>
+      <span class="item-4-hr"></span>
+    </div>
+    <div class="container-3">
+      <div class="item-1">
+        <h3>Registered Office Address</h3>
+        <ul>
+          <li>Buildings Alyssa,</li>
+          <li>Begonia and Clover situated in Embassy Tech Village,</li>
+          <li>Outer Ring Road,</li>
+          <li>Devarabeesanahalli Village,</li>
+          <li>Varthur Hobli,</li>
+          <li>Bengaluru - 560103, India</li>
+        </ul>
+      </div>
+      <div class="item-2">
+        <p>CIN: U72300KA2007PTC041799</p>
+        <span>Telephone:</span>
+        <span class="contact-no">+91-80-61561999</span>
+      </div>
+    </div>
+  </div>
 </body>
+
 </html>
 
 <script src="mens.js">

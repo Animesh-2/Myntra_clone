@@ -939,8 +939,9 @@ arr.forEach(function(Item) {
   // style
   img.style.width="100%";
   img.style.borderRadius="10px 10px 0 0";
-  btnWish.style.backgroundColor="pink";
+  btnWish.style.backgroundColor="#999";
   btnWish.style.fontWeight="bold"
+  btnWish.style.height="5vh";
   showPrice.append(price ,off_price, discount);
 
   var div = document.createElement("div");

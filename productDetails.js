@@ -375,7 +375,7 @@ const displayData = () => {
 
   let p = document.createElement("p");
   p.setAttribute("class", "produtPara");
-  p.innerHTML = `Home / Clothing / Men Clothing / Tshirts /<span style="font-weight: bold;> ${product.brand}</span>/<span style="font-weight: bold;> ${product.title}</span> <hr/>`;
+  p.innerHTML = `Home / Clothing / Men Clothing / Tshirts /<span style="font-weight: bold;> ${product.brand}</span>/<span style="font-weight: bold;> ${product.title}</span>`;
   productDetailContainer.append(p);
 
   Left.innerHTML = `<img src="${product.images.image1}" alt="">
@@ -496,8 +496,11 @@ localStorage.setItem("similarData", JSON.stringify(items));
         // style
         img.style.width="100%";
         img.style.borderRadius="10px 10px 0 0";
-        btnWish.style.backgroundColor="pink";
+        // btnWish.style.backgroundColor="pink";
+        // btnWish.style.fontWeight="bold"
+        btnWish.style.backgroundColor="#999";
         btnWish.style.fontWeight="bold"
+        btnWish.style.height="5vh";
         showPrice.append(price ,off_price, discount);
       
         var div = document.createElement("div");

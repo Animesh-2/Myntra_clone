@@ -5,7 +5,7 @@ function navbar() {
   <nav>
     <ul class="menu-items">
       <li>
-        <a href="./HTML/home.html" class="menu-item-1">MEN</a>
+        <a href="mens.html" class="menu-item-1">MEN</a>
         <div class="mega-menu">
           <div class="content">
             <div class="col">
@@ -95,7 +95,7 @@ function navbar() {
         </div>
       </li>
       <li>
-        <a href="./HTML/Women.html" class="menu-item-2">WOMEN</a>
+        <a href="index.html" class="menu-item-2">WOMEN</a>
         <div class="mega-menu">
           <div class="content">
             <div class="col">
@@ -177,7 +177,7 @@ function navbar() {
         </div>
       </li>
       <li>
-        <a href="./HTML/Kids.html" class="menu-item-3">KIDS</a>
+        <a href="index.html" class="menu-item-3">KIDS</a>
         <div class="mega-menu">
           <div class="content">
             <div class="col">
@@ -264,7 +264,7 @@ function navbar() {
         </div>
       </li>
       <li>
-        <a href="./HTML/Home&Living.html" class="menu-item-4">HOME</a>
+        <a href="index.html" class="menu-item-4">HOME</a>
         <div class="mega-menu">
           <div class="content4">
             <div class="col">
@@ -508,7 +508,7 @@ function navbar() {
   <div id="search-div">
   <img
      id="searchpng"
-     src="https://image.flaticon.com/icons/png/128/49/49116.png"
+     src="https://cdn-icons-png.flaticon.com/128/482/482631.png"
      alt=""
   >
   
@@ -550,7 +550,7 @@ function navbar() {
   </div>
   
   <div>
-    <a href="./HTML/WishList.html">
+    <a href="./HTML File/WishList.html">
       <img
         id="svg"
         src="https://www.svgrepo.com/show/14970/heart.svg"
@@ -562,7 +562,7 @@ function navbar() {
   </div>
   
   <div>
-    <a href="./HTML/cart.html">
+    <a href="./HTML File/cart.html">
       <img
         id="svg"
         src="https://www.svgrepo.com/show/17522/bag.svg"

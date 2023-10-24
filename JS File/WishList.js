@@ -1,8 +1,9 @@
 import { navbar } from "../JS File/navbar.js";
 import { footer } from "../JS File/footer.js";
 
-let wishListHeader = document.getElementById("header");
-wishListHeader.innerHTML = navbar();
+
+// let wishListHeader = document.getElementById("header");
+// wishListHeader.innerHTML = navbar();
 
 let wishListFooter = document.getElementById("footerEl");
 wishListFooter.innerHTML = footer();

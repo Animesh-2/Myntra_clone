@@ -22,7 +22,7 @@ async function loadData(e, p) {
   var result = JSON.parse(localStorage.getItem("id-details"));
   if ((e == result.email || e == result.username) && (p == result.password)) {
     showAlert("Login Successfull!");
-    window.location.href = "../HTML/home.html";
+    window.location.href = "index.html";
     email.value = "";
     psswrd.value = "";
   } else {
