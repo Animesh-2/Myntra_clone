@@ -11,7 +11,7 @@ A Collaborative project built by a team of 5 executed in 6 days.
 
 ## Demo  🎥
 
-- Deployed Link:- [Enjoy the Experience](https://myntra-fashions-clone.netlify.app/)
+- Deployed Link:- [Enjoy the Experience](https://calm-malasada-c0860b.netlify.app)
 
 
 ## Tech Stack 💻
