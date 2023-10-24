@@ -1,8 +1,9 @@
+ // {  here line no 5
 function navbar() {
   return ` <div class="header">
   <div class="logo">
     <img
-      src="../IMAGES/Logo/myntra.svg"
+      src="./IMAGES/images.png"   
       alt="Myntra"
       height="32px"
       width="40px"

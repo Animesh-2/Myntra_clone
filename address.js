@@ -1,4 +1,4 @@
-  import { navbar, footer } from "CheckoutNavbarFooter.js";  //<!-- yha -->
+  import { navbar, footer } from "./CheckoutNavbarFooter.js";  //<!-- yha -->
 
   let headerEl = document.getElementById("headerEl");
   headerEl.innerHTML = navbar();
