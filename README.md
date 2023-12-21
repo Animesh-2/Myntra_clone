@@ -3,7 +3,7 @@
 
 Myntra is an e-commerce website where people can buy from wide range of products and has an interactive UI. 
 
-A Collaborative project built by a team of 5 executed in 6 days.
+A Collaborative project built by a team of 5 executed in 4 days.
 
 
 ![Logo](https://mumbaimirror.indiatimes.com/photo/80601325.cms)
